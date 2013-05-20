@@ -4,8 +4,8 @@ var margin = {top: 30, right: 40, bottom: 100, left: 220},
     width  = 1084 - margin.left - margin.right,
     height = 1084 - margin.top - margin.bottom;
 
-var xScale = d3.scale.linear().range([0, width]);
-var yScale = d3.scale.linear().range([height, 0]);
+var xScale = d3.scale.linear().range([0, width] ).domain([0, 100]);
+var yScale = d3.scale.linear().range([height, 0]).domain([0, 100]);
 
 var xAxis = d3.svg.axis()
               .scale(xScale)
@@ -35,9 +35,6 @@ d3.tsv('data.tsv', function(error, data) {
     d.tomatoScore = +d.tomatoScore;
     d.audienceScore = +d.audienceScore;
   });
-
-  xScale.domain([0, d3.max(data, function(d) { return d.tomatoScore })]);
-  yScale.domain([0, d3.max(data, function(d) { return d.audienceScore })]);
 
   chart.selectAll('.dot')
        .data(data)
