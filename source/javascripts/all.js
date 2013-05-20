@@ -21,6 +21,12 @@ var svg = d3.select('body').append('svg')
             .attr('width', width + margin.left + margin.right)
             .attr('height', height + margin.top + margin.bottom);
 
+var dotSize = function(d) {
+  if (d.oscar) return 6;
+  else if (d.nominee) return 4;
+  else return 1.7;
+}
+
 svg.append('rect')
    .classed('chart', true)
    .attr('width', width)
@@ -41,9 +47,11 @@ d3.tsv('data.tsv', function(error, data) {
        .enter()
        .append('circle')
        .classed('dot', true)
+       .classed('dot-nominee', function(d) { return d.nominee })
+       .classed('dot-winner', function(d) { return d.oscar })
        .attr('cx', function(d) { return xScale(d.tomatoScore) })
        .attr('cy', function(d) { return yScale(d.audienceScore) })
-       .attr('r', function(d) { return d.oscar ? 3 : 1 });
+       .attr('r', dotSize);
 
   chart.append('g')
        .attr('class', 'axis')
