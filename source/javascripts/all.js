@@ -1,8 +1,8 @@
 //= require d3.v3.js
 
-var margin = {top: 30, right: 40, bottom: 100, left: 220},
-    width  = 1084 - margin.left - margin.right,
-    height = 1084 - margin.top - margin.bottom;
+var margin = {top: 20, right: 25, bottom: 100, left: 225},
+    width  = 1333 - margin.left - margin.right,
+    height = 1211 - margin.top - margin.bottom;
 
 var xScale = d3.scale.linear().range([0, width] ).domain([0, 100]);
 var yScale = d3.scale.linear().range([height, 0]).domain([0, 100]);
@@ -28,10 +28,11 @@ var dotSize = function(d) {
 }
 
 svg.append('rect')
-   .classed('chart', true)
+   .classed('chart-background', true)
    .attr('width', width)
    .attr('height', height)
-   .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
+   .attr('x', margin.left)
+   .attr('y', margin.top);
 
 var chart = svg.append('g')
                .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
