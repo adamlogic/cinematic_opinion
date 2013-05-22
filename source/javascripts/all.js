@@ -47,6 +47,13 @@ xTicks.append('line')
       .attr('y1', -height)
       .attr('y2', 0);
 
+xTicks.append('text')
+      .filter(function(d) { return d > 0 && d < 100 })
+      .classed('x-tick-label', true)
+      .text(String)
+      .attr('x', 3)
+      .attr('y', 29);
+
 var yTicks = chart.selectAll('.y-axis')
                   .data(yScale.ticks(10))
                   .enter()
@@ -66,6 +73,13 @@ yTicks.append('line')
       .attr('x2', width)
       .attr('y1', 0)
       .attr('y2', 0);
+
+yTicks.append('text')
+      .filter(function(d) { return d > 0 && d < 100 })
+      .classed('y-tick-label', true)
+      .text(String)
+      .attr('x', -29)
+      .attr('y', 15);
 
 d3.tsv('data.tsv', function(error, data) {
   data.forEach(function(d) {

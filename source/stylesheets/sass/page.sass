@@ -1,5 +1,7 @@
+$color: #222234
+
 %tick
-  stroke: #403e54
+  stroke: $color
   stroke-width: 1px
 
 %gridline
@@ -7,8 +9,13 @@
   stroke-width: 1px
   opacity: 0.1
 
+%label
+  fill: $color
+  font-size: 14px
+
 body
   background: #b4b1ca
+  font-family: sans-serif
 
 .dot
   fill: #dbd9fb
@@ -22,8 +29,14 @@ body
 .x-tick
   @extend %tick
 
+.x-tick-label
+  @extend %label
+
 .y-tick
   @extend %tick
+
+.y-tick-label
+  @extend %label
 
 .x-gridline
   @extend %gridline
