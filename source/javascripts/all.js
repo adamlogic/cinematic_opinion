@@ -1,8 +1,8 @@
 //= require d3.v3.js
 
 var margin = {top: 20, right: 25, bottom: 100, left: 225},
-    width  = 1333 - margin.left - margin.right,
-    height = 1211 - margin.top - margin.bottom;
+    width  = 1250 - margin.left - margin.right,
+    height = 1124 - margin.top - margin.bottom;
 
 var xScale = d3.scale.linear().range([0, width] ).domain([0, 100]);
 var yScale = d3.scale.linear().range([height, 0]).domain([0, 100]);
