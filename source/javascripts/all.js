@@ -27,37 +27,51 @@ svg.append('image')
 var chart = svg.append('g')
                .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
 
+var xTicks = chart.selectAll('.x-axis')
+                  .data(xScale.ticks(10))
+                  .enter()
+                  .append('g')
+                  .attr('transform', function(d) { return 'translate(' + xScale(d) + ',' + height + ')' })
+
+xTicks.append('line')
+      .classed('x-tick', true)
+      .attr('x1', 0)
+      .attr('x2', 0)
+      .attr('y1', 0)
+      .attr('y2', 30);
+
+xTicks.append('line')
+      .classed('x-gridline', true)
+      .attr('x1', 0)
+      .attr('x2', 0)
+      .attr('y1', -height)
+      .attr('y2', 0);
+
+var yTicks = chart.selectAll('.y-axis')
+                  .data(yScale.ticks(10))
+                  .enter()
+                  .append('g')
+                  .attr('transform', function(d) { return 'translate(0,' + yScale(d) + ')' })
+
+yTicks.append('line')
+      .classed('y-tick', true)
+      .attr('x1', -30)
+      .attr('x2', 0)
+      .attr('y1', 0)
+      .attr('y2', 0);
+
+yTicks.append('line')
+      .classed('y-gridline', true)
+      .attr('x1', 0)
+      .attr('x2', width)
+      .attr('y1', 0)
+      .attr('y2', 0);
+
 d3.tsv('data.tsv', function(error, data) {
   data.forEach(function(d) {
     d.tomatoScore = +d.tomatoScore;
     d.audienceScore = +d.audienceScore;
   });
-
-  var xTicks = chart.selectAll('.x-axis')
-                    .data(xScale.ticks(10))
-                    .enter()
-                    .append('g')
-                    .attr('transform', function(d) { return 'translate(' + xScale(d) + ',' + height + ')' })
-
-  xTicks.append('line')
-        .classed('x-tick', true)
-        .attr('x1', 0)
-        .attr('x2', 0)
-        .attr('y1', 0)
-        .attr('y2', 30);
-
-  var yTicks = chart.selectAll('.y-axis')
-                    .data(yScale.ticks(10))
-                    .enter()
-                    .append('g')
-                    .attr('transform', function(d) { return 'translate(0,' + yScale(d) + ')' })
-
-  yTicks.append('line')
-        .classed('y-tick', true)
-        .attr('x1', -30)
-        .attr('x2', 0)
-        .attr('y1', 0)
-        .attr('y2', 0);
 
   chart.selectAll('.dot')
        .data(data)

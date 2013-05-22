@@ -1,3 +1,12 @@
+%tick
+  stroke: #403e54
+  stroke-width: 1px
+
+%gridline
+  stroke: white
+  stroke-width: 1px
+  opacity: 0.1
+
 body
   background: #b4b1ca
 
@@ -10,12 +19,14 @@ body
 .dot-winner
   fill: #fcd933
 
-%tick
-  stroke: #403e54
-  stroke-width: 1px
-
 .x-tick
   @extend %tick
 
 .y-tick
   @extend %tick
+
+.x-gridline
+  @extend %gridline
+
+.y-gridline
+  @extend %gridline
