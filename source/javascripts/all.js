@@ -1,8 +1,11 @@
 //= require d3.v3.js
 
-var margin = {top: 20, right: 25, bottom: 100, left: 225},
-    width  = 1250 - margin.left - margin.right,
-    height = 1124 - margin.top - margin.bottom;
+var margin         = {top: 20, right: 25, bottom: 100, left: 225},
+    width          = 1250 - margin.left - margin.right,
+    height         = 1124 - margin.top - margin.bottom,
+    legendHeight   = 157,
+    sidebarWidth   = 157,
+    sidebarPadding = 20;
 
 var xScale = d3.scale.linear().range([0, width] ).domain([0, 100]);
 var yScale = d3.scale.linear().range([height, 0]).domain([0, 100]);
@@ -15,6 +18,12 @@ var dotSize = function(d) {
   if (d.oscar) return 6;
   else if (d.nominee) return 4;
   else return 1.7;
+}
+
+var dotClass = function(d) {
+  if (d.oscar) return 'dot-winner';
+  else if (d.nominee) return 'dot-nominee';
+  else return 'dot';
 }
 
 svg.append('image')
@@ -79,7 +88,7 @@ yTicks.append('text')
       .classed('y-tick-label', true)
       .text(String)
       .attr('x', -29)
-      .attr('y', 15);
+      .attr('y', 16);
 
 d3.tsv('data.tsv', function(error, data) {
   data.forEach(function(d) {
@@ -91,10 +100,23 @@ d3.tsv('data.tsv', function(error, data) {
        .data(data)
        .enter()
        .append('circle')
-       .classed('dot', true)
-       .classed('dot-nominee', function(d) { return d.nominee })
-       .classed('dot-winner', function(d) { return d.oscar })
+       .attr('class', dotClass)
        .attr('cx', function(d) { return xScale(d.tomatoScore) })
        .attr('cy', function(d) { return yScale(d.audienceScore) })
        .attr('r', dotSize);
 });
+
+var legend = d3.select('.legend')
+               .style('top', (height + margin.top - legendHeight) + 'px')
+               .style('left', sidebarPadding + 'px')
+               .style('height', legendHeight + 'px')
+               .style('width', sidebarWidth + 'px');
+
+svg.selectAll('.legend-symbol')
+   .data([{oscar: true}, {nominee: true}, {}])
+   .enter()
+   .append('circle')
+   .attr('class', dotClass)
+   .attr('cx', 158)
+   .attr('cy', function(d, i) { return 950 + (23 * i) })
+   .attr('r', dotSize);
