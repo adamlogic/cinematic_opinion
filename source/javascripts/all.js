@@ -7,16 +7,6 @@ var margin = {top: 20, right: 25, bottom: 100, left: 225},
 var xScale = d3.scale.linear().range([0, width] ).domain([0, 100]);
 var yScale = d3.scale.linear().range([height, 0]).domain([0, 100]);
 
-var xAxis = d3.svg.axis()
-              .scale(xScale)
-              .orient('bottom')
-              .ticks(5);
-
-var yAxis = d3.svg.axis()
-              .scale(yScale)
-              .orient('left')
-              .ticks(5);
-
 var svg = d3.select('body').append('svg')
             .attr('width', width + margin.left + margin.right)
             .attr('height', height + margin.top + margin.bottom);
@@ -27,12 +17,12 @@ var dotSize = function(d) {
   else return 1.7;
 }
 
-svg.append('rect')
-   .classed('chart-background', true)
+svg.append('image')
    .attr('width', width)
    .attr('height', height)
    .attr('x', margin.left)
-   .attr('y', margin.top);
+   .attr('y', margin.top)
+   .attr('xlink:href', '/images/chart_background.png');
 
 var chart = svg.append('g')
                .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
@@ -42,6 +32,32 @@ d3.tsv('data.tsv', function(error, data) {
     d.tomatoScore = +d.tomatoScore;
     d.audienceScore = +d.audienceScore;
   });
+
+  var xTicks = chart.selectAll('.x-axis')
+                    .data(xScale.ticks(10))
+                    .enter()
+                    .append('g')
+                    .attr('transform', function(d) { return 'translate(' + xScale(d) + ',' + height + ')' })
+
+  xTicks.append('line')
+        .classed('x-tick', true)
+        .attr('x1', 0)
+        .attr('x2', 0)
+        .attr('y1', 0)
+        .attr('y2', 30);
+
+  var yTicks = chart.selectAll('.y-axis')
+                    .data(yScale.ticks(10))
+                    .enter()
+                    .append('g')
+                    .attr('transform', function(d) { return 'translate(0,' + yScale(d) + ')' })
+
+  yTicks.append('line')
+        .classed('y-tick', true)
+        .attr('x1', -30)
+        .attr('x2', 0)
+        .attr('y1', 0)
+        .attr('y2', 0);
 
   chart.selectAll('.dot')
        .data(data)
@@ -53,13 +69,4 @@ d3.tsv('data.tsv', function(error, data) {
        .attr('cx', function(d) { return xScale(d.tomatoScore) })
        .attr('cy', function(d) { return yScale(d.audienceScore) })
        .attr('r', dotSize);
-
-  chart.append('g')
-       .attr('class', 'axis')
-       .attr('transform', 'translate(0,' + height + ')')
-       .call(xAxis);
-
-  chart.append('g')
-       .attr('class', 'axis')
-       .call(yAxis);
 });

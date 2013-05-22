@@ -1,9 +1,6 @@
 body
   background: #b4b1ca
 
-.chart-background
-  fill: #28283b
-
 .dot
   fill: #dbd9fb
 
@@ -12,3 +9,13 @@ body
 
 .dot-winner
   fill: #fcd933
+
+%tick
+  stroke: #403e54
+  stroke-width: 1px
+
+.x-tick
+  @extend %tick
+
+.y-tick
+  @extend %tick
