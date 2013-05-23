@@ -1,55 +1,38 @@
-Chart.addXAxis = (chart, scale) ->
-  xTicks = chart.selectAll('.x-axis')
-                .data(scale.ticks(10))
-                .enter()
-                .append('g')
-                .attr('transform', (d) -> "translate(#{scale(d)},#{Chart.height})" )
+addTicks = (chart, scale, selector, transform) ->
+  chart.selectAll(selector)
+       .data(scale.ticks(10))
+       .enter()
+       .append('g')
+       .attr('transform', transform)
 
-  xTicks.append('line')
-        .classed('x-tick', true)
-        .attr('x1', 0)
-        .attr('x2', 0)
-        .attr('y1', 0)
-        .attr('y2', 30)
+addLines = (ticks, className, start, end) ->
+  ticks.append('line')
+       .classed(className, true)
+       .attr('x1', start[0])
+       .attr('y1', start[1])
+       .attr('x2', end[0])
+       .attr('y2', end[1])
 
-  xTicks.append('line')
-        .classed('x-gridline', true)
-        .attr('x1', 0)
-        .attr('x2', 0)
-        .attr('y1', -Chart.height)
-        .attr('y2', 0)
-
-  xTicks.append('text')
+addTickLabels = (ticks, className, x, y) ->
+  ticks.append('text')
         .filter((d) -> d > 0 && d < 100 )
-        .classed('x-tick-label', true)
+        .classed(className, true)
         .text(String)
-        .attr('x', 3)
-        .attr('y', 29)
+        .attr('x', x)
+        .attr('y', y)
+
+Chart.addXAxis = (chart, scale) ->
+  ticks = addTicks chart, scale, '.x-axis', (d) ->
+    "translate(#{scale(d)},#{Chart.height})"
+
+  addLines ticks, 'x-tick', [0,0], [0,30]
+  addLines ticks, 'x-gridline', [0,-Chart.height], [0,0]
+  addTickLabels ticks, 'x-tick-label', 3, 29
 
 Chart.addYAxis = (chart, scale) ->
-  yTicks = chart.selectAll('.y-axis')
-                .data(scale.ticks(10))
-                .enter()
-                .append('g')
-                .attr('transform', (d) -> "translate(0,#{scale(d)})" )
+  ticks = addTicks chart, scale, '.y-axis', (d) ->
+    "translate(0, #{scale(d)})"
 
-  yTicks.append('line')
-        .classed('y-tick', true)
-        .attr('x1', -30)
-        .attr('x2', 0)
-        .attr('y1', 0)
-        .attr('y2', 0)
-
-  yTicks.append('line')
-        .classed('y-gridline', true)
-        .attr('x1', 0)
-        .attr('x2', Chart.width)
-        .attr('y1', 0)
-        .attr('y2', 0)
-
-  yTicks.append('text')
-        .filter((d) -> d > 0 && d < 100 )
-        .classed('y-tick-label', true)
-        .text(String)
-        .attr('x', -29)
-        .attr('y', 16)
+  addLines ticks, 'y-tick', [-30,0], [0,0]
+  addLines ticks, 'y-gridline', [0,0], [Chart.width,0]
+  addTickLabels ticks, 'y-tick-label', -29, 16
