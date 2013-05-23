@@ -17,8 +17,13 @@ Chart.addChartBackground svg
 svgChart = svg.append('g')
               .attr('transform', "translate(#{Chart.margin.left},#{Chart.margin.top})")
 
+d3.tsv 'data.tsv', (error, data) ->
+  data.forEach (d) ->
+    d.tomatoScore = +d.tomatoScore
+    d.audienceScore = +d.audienceScore
+  Chart.addDots svgChart, xScale, yScale, data
+
 Chart.addXAxis svgChart, xScale
 Chart.addYAxis svgChart, yScale
 Chart.positionLegend()
 Chart.addLegendSymbols svg
-Chart.addDots svgChart, xScale, yScale
