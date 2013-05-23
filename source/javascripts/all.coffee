@@ -1,4 +1,4 @@
-#= require d3.v3.js
+#= require vendor/d3.v3.js
 #= require chart_base
 #= require background
 #= require axes
