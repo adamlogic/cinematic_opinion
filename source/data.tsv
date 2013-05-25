@@ -1,671 +1,656 @@
-film	year	tomatoScore	audienceScore	genre	revenue	budget	oscar
-30 Minutes or Less	2011	43	48	Comedy	40.55	28	
-50/50	2011	93	93	Comedy	36.51	8	
-A Dangerous Method	2011	79	89	Drama	8.97	20	
-A Very Harold and Kumar Christmas	2011	72	71	Comedy	34.04	19	
-Abduction	2011	4	46	Action	82.07	35	
-Albert Nobbs	2011	53	43	Drama	2.75	8	
-Anonymous	2011	46	66	Drama	14.19	30	
-Another Earth	2011	63	74	Fantasy	1.77	0.2	
-Apollo 18	2011	23	31	Horror	25.56	5	
-Arthur	2011	26	49	Comedy	45.74	40	
-Arthur Christmas	2011	92	82	Animation	147.41	150	
-Average	2011	49	60		158	54	
-Bad Teacher	2011	44	38	Comedy	216.20	20	
-Battle: Los Angeles	2011	35	50	Action	211.82	70	
-Beastly	2011	19	50	Romance	28.83	17	
-Beginners	2011	84	80	Comedy	14.31	3.2	supporting actor
-Bridesmaids	2011	90	77	Comedy	288.38	32.5	
-Captain America: The First Avenger	2011	78	75	Action	368.40	140	
-Cars 2	2011	38	56	Animation	551.85	200	
-Cedar Rapids	2011	86	61	Comedy	6.86	10	
-Colombiana	2011	28	55	Action	60.97	40	
-Conan the Barbarian	2011	22	34	Action	48.80	90	
-Contagion	2011	84	63	Thriller	135.46	60	
-Cowboys and Aliens	2011	44	50	Action	174.82	163	
-Crazy, Stupid, Love	2011	78	81	Romance	142.84	50	
-Diary of a Wimpy Kid 2: Rodrick Rules	2011	47	63	Comedy	72.42	21	
-Dolphin Tale	2011	84	81	Drama	87.95	37	
-Don't Be Afraid Of The Dark	2011	59	37	Horror	31.55	25	
-Dream House	2011	7	38	Horror	38.50	50	
-Drive	2011	93	79	Thriller	67.01	15	
-Drive Angry	2011	45	38	Action	28.93	45	
-Dylan Dog: Dead of Night	2011	6	28	Horror	4.63	20	
-Everything Must Go	2011	74	53	Drama	2.71	5	
-Extremely Loud and Incredibly Close	2011	47	62	Drama	45.99	40	
-Fast Five	2011	78	83	Action	626.13	125	
-Final Destination 5	2011	61	56	Horror	157.89	40	
-Footloose	2011	71	71	Drama	62.05	24	
-Friends With Benefits	2011	71	68	Romance	149.54	35	
-Fright Night	2011	75	68	Horror	37.10	30	
-Gnomeo and Juliet	2011	56	52	Animation	193.97	36	
-Green Lantern	2011	27	48	Action	219.85	200	
-Hall Pass	2011	35	44	Comedy	83.16	36	
-Hanna	2011	71	67	Action	63.78	30	
-Happy Feet 2	2011	41	59	Animation	106.51	135	
-Harry Potter and the Deathly Hallows Part 2	2011	96	92	Fantasy	1,328.11	125	
-Hesher	2011	54	68	Drama	0.38	7	
-Hop	2011	26	50	Animation	183.95	63	
-Horrible Bosses	2011	69	72	Comedy	209.64	35	
-Hugo	2011	93	84	Adventure	96.68	150	
-I Am Number Four	2011	32	57	Thriller	144.50	60	
-Immortals	2011	36	59	Action	182.49	75	
-In Time	2011	38	55	Thriller	127.39	40	
-Insidious	2011	67	65	Horror	97.01	1.5	
-J.Edgar	2011	42	84	Drama	73.19	35	
-Jack and Jill	2011	4	59	Comedy	124.93	79	
-Jane Eyre	2011	85	77	Romance	30.15		
-Johnny English Reborn	2011	38	55	Comedy	157.94	45	
-Just Go With It	2011	19	63	Romance	214.95	80	
-Killer Elite	2011	25	48	Action	52.96	70	
-Kung Fu Panda 2	2011	82	80	Animation	663.02	150	
-Larry Crowne	2011	34	46	Drama	52.41	30	
-Limitless	2011	69	73	Thriller	161.85	27	
-Machine Gun Preacher	2011	29	71	Action	1.10	30	
-Margin Call	2011	86	73	Thriller	8.87	3.5	
-Mars Needs Moms	2011	36	43	Animation	38.99	150	
-Midnight in Paris	2011	93	84	Romance	148.66	17	orig. screenplay
-Mission Impossible 4	2011	93	86	Action	688.78	145	
-Moneyball	2011	95	89	Drama	108.10	50	
-Monte Carlo	2011	38	50	Romance	39.66	20	
-Mr. Popper's Penguins	2011	47	54	Comedy	187.36	55	
-My Week with Marilyn	2011	83	84	Drama	8.26	10	
-New Year's Eve	2011	8	48	Romance	142.04	56	
-No Strings Attached	2011	49	57	Comedy	147.70	25	
-One Day	2011	37	54	Romance	55.24	15	
-Our Idiot Brother	2011	68	79	Comedy	24.82	5	
-Paranormal Activity 3	2011	68	58	Horror	201.90	5	
-Paul	2011	72	70	Comedy	97.98	40	
-Pirates of the Caribbean: On Stranger Tides	2011	34	61	Action	1,043.87	250	
-Priest	2011	17	37	Action	78.31	60	
-Puss In Boots	2011	83	76	Animation	522.26	130	
-Rango	2011	88	69	Animation	245.15	135	
-Real Steel	2011	58	81	Action	269.81	110	
-Red Riding Hood	2011	11	41	Horror	89.16	42	
-Red State	2011	57	59	Horror	1.10	4	
-Rio	2011	71	73	Animation	484.63	90	
-Rise of the Planet of the Apes	2011	83	87	Action	481.23	93	
-Sanctum	2011	30	39	Action	108.60	30	
-Scream 4	2011	58	57	Horror	97.14	40	
-Season Of The Witch	2011	10	32	Action	91.60	40	
-Shame	2011	80	80	Drama	13.96	6.5	
-Shark Night 3D	2011	16	25	Horror	38.70	25	
-Sherlock Holmes 2	2011	60	79	Action	521.96	125	
-Soul Surfer	2011	46	79	Drama	44.27	18	
-Source Code	2011	92	81	Thriller	123.28	32	
-Spy Kids: All The Time in the World	2011	22	40	Action	74.08	27	
-Sucker Punch	2011	23	48	Action	89.79	82	
-Super 8 	2011	82	78	Horror	259.71	50	
-Take Me Home Tonight	2011	28	46	Comedy	6.93	25	
-Take Shelter	2011	92	85	Drama	1.57	5	
-The Adjustment Bureau	2011	72	67	Thriller	127.87	50.2	
-The Adventures of Tintin	2011	74	78	Adventure	373.64	130	
-The Artist	2011	97	91	Drama	105.74	16	Picture, Actor, Director
-The Beaver	2011	62	57	Drama	6.37	21	
-The Big Year	2011	38	62	Comedy	7.41	41	
-The Change Up	2011	24	53	Comedy	70.83	52	
-The Company Men	2011	66	55	Drama	4.80	15	
-The Conspirator	2011	56	65	Drama	14.21	25	
-The Debt	2011	76	70	Thriller	45.43	20	
-The Descendants	2011	89	88	Drama	167.65	20	
-The Dilemma	2011	23	31	Comedy	69.70	70	
-The Eagle	2011	39	43	Action	27.12	25	
-The Girl With The Dragon Tattoo	2011	87	89	Thriller	229.19	90	
-The Green Hornet	2011	44	47	Action	227.80	120	
-The Hangover Part II	2011	35	58	Comedy	581.46	80	
-The Help	2011	75	91	Drama	206.24	25	supporting actress
-The Ides of March	2011	85	76	Thriller	54.19	12.5	
-The Iron Lady	2011	53	54	Drama	81.41	13	
-The Lincoln Lawyer	2011	84	82	Drama	75.01	40	
-The Mechanic	2011	53	52	Action	51.20	40	
-The Muppets	2011	97	87	Comedy	158.34	45	
-The Rite	2011	20	43	Horror	96.00	37	
-The Roommate	2011	4	29	Horror	40.49	16	
-The Rum Diary	2011	50	48	Drama	21.55	45	
-The Sitter	2011	22	43	Comedy	34.58	25	
-The Smurfs	2011	23	50	Animation	562.16	110	
-The Son Of No One	2011	18	61	Thriller	0.03	15	
-The Thing	2011	36	52	Horror	27.43	38	
-The Three Musketeers	2011	24	48	Action	132.15	75	
-The Tree Of Life	2011	84	61	Drama	54.30	32	
-Thor	2011	77	80	Action	448.51	150	
-Tinker Tailor Soldier Spy	2011	83	68	Thriller	77.75	21	
-Tower Heist	2011	68	61	Comedy	164.54	75	
-Transformers: Dark of the Moon	2011	35	67	Action	1,123.20	195	
-Trespass	2011	11	24	Thriller	3.12	35	
-Twilight: Breaking Dawn	2011	26	68	Romance	702.17	110	
-Unknown	2011	55	57	Thriller	130.79	30	
-Vanishing on 7th Street	2011	52	62	Horror	1.07	10	
-Waiting For Forever	2011	6	53	Romance	0.03	5	
-War Horse	2011	77	73	Drama	167.54	66	
-Warrior	2011	83	93	Action	23.06	25	
-Water For Elephants	2011	60	72	Drama	117.09	38	
-We Bought a Zoo	2011	63	79	Comedy	101.18	50	
-What's Your Number	2011	24	50	Comedy	30.43	20	
-Winnie The Pooh	2011	91	79	Animation	33.15	30	
-X-Men: First Class	2011	87	88	Action	353.62	160	
-Your Highness	2011	26	36	Comedy	24.86	49.9	
-Zookeeper	2011	14	42	Comedy	170.30	80	
-MacGruber	2010	47	33	Action	9.33	10	
-The Other Guys	2010	78	57	Action	170.27	100	
-All About Steve 	2010	6	35	Comedy	40.12	15	
-Death at a Funeral	2010	40	48	Comedy	49.05	21	
-Dinner for Schmucks	2010	43	47	Comedy	86.41	69	
-Due Date	2010	40	56	Comedy	200.55	50	
-Furry Vengeance 	2010	8	36	Comedy	35.97	35	
-Get Him to the Greek	2010	73	63	Comedy	91.39	40	
-Grown Ups 	2010	10	59	Comedy	267.4	80	
-I'm Still Here	2010	52	38	Comedy	0.55		
-Knucklehead	2010	10	35	Comedy	0		
-Little Fockers	2010	9	40	Comedy	232.7	100	
-Morning Glory	2010	54	54	Comedy	58.79	40	
-Nanny McPhee Returns	2010	77	54	Comedy	93.24	35	
-Please Give	2010	88	62	Comedy	4.26	3	
-The Kids Are All Right	2010	94	72	Comedy	29.36	4	
-The Switch	2010	52	44	Comedy	47.73	19	
-Tooth Fairy	2010	16	46	Comedy	112.36	48	
-Vampires Suck	2010	4	32	Comedy	79.98	20	
-Why Did I Get Married Too?	2010	27	67	Comedy	60.67	20	
-You Again	2010	18	45	Comedy	31.86	20	
-Jackass 3-D	2010	63	72	Documentary	169.95	20	
-Daybreakers 	2010	67	50	Action	51.41	20	
-For Colored Girls	2010	33	73	Drama	55.01	21	
-The Company Men	2010	66	56	Drama	0		
-The Greatest	2010	52	39	Drama	0.41	6	
-The Last Song	2010	19	66	Drama	89.04	20	
-Charlie St. Cloud 	2010	27	62	Fantasy	46.09	44	
-127 Hours	2010	93	84	Adventure	60.73	18	
-Saw 3-D	2010	10	47	Crime	122.51	20	
-Buried	2010	86	63	Drama	18.37	2	
-Tron: Legacy	2010	50	67	Action	291.41	170	
-Inception	2010	86	93	Action	823.58	160	
-Alice in Wonderland	2010	52	72	Adventure	1024.39	200	
-Hot Tub Time Machine	2010	64	57	Adventure	64.42	36	
-Alpha and Omega	2010	17	41	Animation	29.92	20	
-Shrek Forever After	2010	57	64	Animation	748.8	165	
-Gulliver's Travels	2010	21	31	Comedy	236	112	
-Eat Pray Love 	2010	36	46	Drama	204.48	60	
-Killers	2010	11	45	Action	93.4	75	
-Tangled	2010	89	88	Animation	355.08	260	
-Going the Distance	2010	53	56	Comedy	42.05	32	
-I Love You Phillip Morris	2010	71	57	Comedy	20.1	15	
-Just Wright	2010	45	58	Comedy	21.569	12	
-Leap Year	2010	21	49	Comedy	32.59	19	
-Letters to Juliet	2010	40	62	Comedy	79.18	30	
-Life as We Know It	2010	28	62	Comedy	96.16	38	
-Love & Other Drugs	2010	48	55	Comedy	54.53	30	
-Our Family Wedding	2010	14	49	Comedy	21.37		
-Sex and the City 2	2010	15	49	Comedy	288.35	100	
-She's Out of My League	2010	57	60	Comedy	48.81	20	
-The Back-up Plan	2010	20	47	Comedy	77.09	35	
-Valentine's Day	2010	17	54	Comedy	217.57	52	
-When in Rome	2010	15	44	Comedy	43.04		
-You Will Meet a Tall Dark Stranger	2010	43	35	Comedy	26.66	22	
-Youth in Revolt	2010	68	52	Comedy	19.62	18	
-Dear John	2010	29	66	Drama	114.97	25	
-Remember Me	2010	28	70	Drama	55.86	16	
-Despicable Me	2010	81	81	Animation	541.88	69	
-The King's Speech	2010	95	93	Biography	427.36	15	Best Picture, Director,  Actor, Orig. Screenplay
-The Runaways	2010	68	56	Biography	4.68	10	
-Barry Munday	2010	43	43	Comedy			
-Easy A	2010	85	75	Comedy	73.64	8	
-Legion	2010	19	36	Action	67.91	26	
-Predators	2010	64	52	Action	126.74	40	
-Resident Evil: Afterlife	2010	24	53	Action	296.22	60	
-Skyline	2010	16	19	Action	55.26	10	
-Piranha 3-D	2010	74	45	Comedy	79.78	24	
-The Last Exorcism	2010	73	32	Drama	66.45	1.8	
-The Twilight Saga: Eclipse 	2010	50	74	Drama	693.58	68	
-The Wolfman	2010	33	38	Drama	139.79	150	
-A Nightmare on Elm Street	2010	13	40	Horror	115.67	35	
-Case 39	2010	23	42	Horror	28.19	26	
-Devil	2010	52	45	Horror	56.83	10	
-My Soul to Take	2010	9	29	Horror	19.83	25	
-Paranormal Activity 2	2010			Horror	177.5	3	
-The Crazies	2010	72	54	Horror	54.59	20	
-Cats & Dogs: The Revenge of Kitty Galore	2010	13	43	Action	112.49	85	
-From Paris with Love	2010	38	57	Action	52.8	52	
-Knight and Day	2010	53	52	Action	261.68	117	
-The A-Team	2010	47	71	Action	177.03	100	
-The Expendables	2010	40	58	Action	274.47	82	
-The Sorcerer's Apprentice	2010	42	57	Action	215.28	150	
-Date Night	2010	66	58	Comedy	152.26	55	
-Clash of the Titans	2010	28	48	Action	493.21	125	
-Green Zone	2010	53	60	Action	94.87	100	
-The Book of Eli        	2010	48	68	Action	153.46	80	
-The Last Airbender	2010	6	42	Action	319.12	150	
-Harry Potter and the Deathly Hallows Part 1	2010	79	87	Adventure	955	125	
-The Chronicles of Narnia: The Voyage of the Dawn Treader	2010	49	63	Adventure	415	155	
-Winter's Bone	2010	94	73	Drama	7.79	2	
-The Social Network	2010	96	89	Biography	199.6	50	
-Burlesque	2010	36	66	Drama	56.08	55	
-Country Strong	2010	20	56	Drama	20.52	15	
-Repo Men	2010	22	43	Action	18.41	32	
-Unstoppable	2010	86	73	Action	169.5	95	
-Toy Story 3	2010	99	91	Animation	1063.16	200	
-Conviction	2010	68	71	Biography	9.71	12.5	
-The Next Three Days	2010	51	66	Crime	41.75	30	
-Faster 	2010	41	50	Action	24.91	24	
-Jonah Hex	2010	13	24	Action	10.91	47	
-Machete	2010	73	66	Action	42.14	20	
-Salt	2010	62	62	Action	293.5	110	
-The Losers	2010	47	55	Action	29.38	25	
-True Grit	2010	96	86	Adventure	252.03	38	
-Edge of Darkness	2010	55	56	Crime	81.12	80	
-Iron Man 2	2010	74	80	Action	622.05	200	
-Kick-Ass	2010	76	83	Action	96.13	30	
-Percy Jackson & the Olympians: The Lightning Thief	2010	50	57	Action	226.5	95	
-Prince of Persia: The Sands of Time	2010	36	71	Action	335.15	200	
-Red	2010	71	72	Action	164.42	58	
-Robin Hood	2010	42	59	Action	321.67	200	
-Takers	2010	27	57	Action	68.16	32	
-The Bounty Hunter	2010	7	41	Action	136.32	40	
-The Spy Next Door	2010	13	46	Action	43.58		
-Legend of the Guardians: The Owls of Ga'Hoole	2010	51	65	Animation	139.9	80	
-Cyrus	2010	80	51	Comedy	9.92	7	
-Marmaduke	2010	9	46	Comedy	83.35	50	
-The American	2010	66	37	Crime	46	20	
-The Town	2010	94	83	Crime	144.55	37	
-Stone	2010	49	20	Drama	8.4	22	
-Wall Street: Money Never Sleeps	2010	54	43	Drama	130.63	70	
-Hachiko: A Dog's Story	2010	58	85	Drama	40.26	16	
-Brooklyn's Finest	2010	42	47	Action	36.35	17	
-The Joneses	2010	61	47	Comedy	1.97	10	
-Cop Out	2010	19	45	Action	55.52	30	
-The Killer Inside Me	2010	56	41	Crime	3.58	13	
-All Good Things	2010	33	64	Drama	0.642	20	
-Shutter Island	2010	68	73	Drama	294.8	80	
-The Ghost Writer	2010	83	68	Mystery	60.02	45	
-Never Let Me Go	2010	70	70	Drama	9.73	15	
-Megamind	2010	72	73	Animation	318.13	130	
-City Island	2010	81	77	Comedy	7.86	6	
-Greenberg	2010	75	40	Comedy	6.15		
-Mother and Child	2010	79	61	Drama	4.87	7	
-Step Up 3D	2010	46	67	Drama	159.15	30	
-Scott Pilgrim vs. the World	2010	81	83	Action	47.57	60	
-The Karate Kid	2010	66	75	Action	359.12	40	
-How to Train Your Dragon	2010	98	90	Animation	494.88	165	
-Diary of a Wimpy Kid	2010	53	49	Comedy	75.7	15	
-Extraordinary Measures 	2010	27	55	Drama	15.14	31	
-The Fighter	2010	91	88	Drama	128	25	Sup. Actor, Sup. Actress
-Solitary Man	2010	81	47	Comedy	5.06	15	
-Black Swan        	2010	88	86	Drama	329.39	13	Best Actress
-Yogi Bear	2010	14	36	Comedy	202.27	80	
-The Tourist	2010	20	44	Thriller	277	100	
-9	2009	57	58	Animation	48.41	30	
-2012	2009	39	63	Action	768.00	200	
-(500) Days of Summer 	2009	87	81	Comedy	60.72	7.5	
-12 Rounds 	2009	30	52	Action	18.17	20	
-17 Again 	2009	55	70	Comedy	136.30	20	
-A Christmas Carol	2009	52	72	Animation	325.33	200	
-A Perfect Getaway 	2009	61	50	Mystery	22.83	14	
-A Serious Man 	2009	89	64	Drama	30.68	7	
-Adventureland 	2009	89	56	Comedy	17.14	9.8	
-Aliens in the Attic 	2009	30	46	Adventure	57.88	45	
-All About Steve 	2009	6	35	Comedy	40.12	15	
-Alvin and the Chipmunks: The Squeakquel 	2009	21	59	Animation	440.70	75	
-Avatar 	2009	83	92	Action	2,783.50	237	
-Amelia 	2009	21	35	Adventure	19.20	40	
-An Education	2009	94	78	Drama	26.09	7.5	
-Angels & Demons 	2009	36	65	Mystery	485.90	150	
-Armored 	2009	40	34	Action	16.00	20	
-Astro Boy 	2009	49	53	Animation	44.09	65	
-Away We Go 	2009	67	74	Comedy	14.89	21	
-Bandslam 	2009	79	60	Comedy	12.10	20	
-Bride Wars 	2009	11	56	Comedy	115.15	30	
-Brothers 	2009	61	62	Drama	43.27	26	
-Bruno 	2009	68	48	Comedy	130.80	42	
-Cirque du Freak: The Vampire's Assistant 	2009	38	50	Action	34.36	40	
-Cloudy with a Chance of Meatballs 	2009	86	70	Animation	243.03	100	
-Confessions of a Shopaholic 	2009	24	53	Comedy	108.30	70	
-Coraline 	2009	89	77	Animation	124.58	60	
-Couples Retreat 	2009	12	47	Comedy	171.83	60	
-Crank: High Voltage 	2009	62	54	Action	34.50	12.9	
-Dance Flick 	2009	17	35	Action	31.43	25	
-Did You Hear About the Morgans? 	2009	12	31	Comedy	85.28	58	
-District 9 	2009	91	81	Action	210.77	30	
-Drag Me to Hell 	2009	92	61	Horror	90.80	30	
-Dragonball Evolution 	2009	15	28	Action	58.23	30	
-Duplicity 	2009	64	38	Romance	78.14	60	
-Everybody's Fine 	2009	46	55	Drama	16.40	21	
-Extract 	2009	62	37	Comedy	10.83	7.5	
-Fame	2009	25	43	Comedy	78.00	18	
-Fantastic Mr. Fox 	2009	93	80	Animation	46.46	40	
-Fast and Furious 	2009	28	76	Action	363.10	85	
-Fired Up! 	2009	22	52	Comedy	18.60	20	
-Friday the 13th	2009	25	52	Horror	91.40	19	
-Funny People 	2009	68	58	Comedy	71.58	75	
-G-Force 	2009	22	50	Action	285.10	150	
-G.I. Joe: The Rise of Cobra 	2009	33	62	Action	302.10	175	
-Gamer 	2009	29	43	Action	40.82	12.5	
-Ghosts of Girlfriends Past 	2009	27	47	Comedy	102.22	50	
-Halloween II	2009	20	45	Horror	39.41	15	
-Hannah Montana: The Movie 	2009	44	66	Comedy	150.10	35	
-Harry Potter and the Half-Blood Prince 	2009	83	75	Adventure	934.00	250	
-He's Just Not That Into You 	2009	42	60	Comedy	178.84	25	
-Hotel for Dogs 	2009	46	57	Comedy	118.20	35	
-I Love You Beth Cooper 	2009	14	38	Comedy	16.38	18	
-I Love You, Man 	2009	83	72	Comedy	91.40	40	
-Ice Age: Dawn of the Dinosaurs 	2009	45	72	Animation	886.68	90	
-Imagine That 	2009	38	44	Comedy	22.99	55	
-Inglourious Basterds 	2009	88	87	Adventure	321.41	70	Supporting Actor
-Inkheart 	2009	39	51	Adventure	62.44	60	
-Invictus	2009	75	74	Biography	122.23	60	
-It's Complicated 	2009	56	63	Comedy	224.60	85	
-Jennifer's Body 	2009	42	37	Comedy	31.55	16	
-Julie & Julia 	2009	74	69	Biography	126.64	40	
-Knowing 	2009	33	50	Drama	183.58	50	
-Land of the Lost 	2009	26	38	Drama	69.54	100	
-Law Abiding Citizen 	2009	25	77	Crime	126.48	53	
-Love Happens 	2009	18	40	Drama	36.08	18	
-Michael Jackson's This Is It 	2009	81	82	Documentary	252.10	60	
-Monsters Vs. Aliens 	2009	72	65	Animation	381.50	175	
-My Bloody Valentine 3-D 	2009	57	48	Crime	102.74	14	
-My Life in Ruins 	2009	9	43	Comedy	18.01	17	
-My Sister's Keeper 	2009	47	73	Drama	89.05	27.5	
-Next Day Air 	2009	21	27	Action	10.00	3	
-Night at the Museum: Battle of the Smithsonian 	2009	43	60	Action	413.00	150	
-Nine 	2009	37	40	Drama	53.99	80	
-Ninja Assassin 	2009	25	57	Action	61.59	50	
-Not Easily Broken 	2009	34	66	Drama	10.70	5	
-Notorious	2009	50	66	Biography	44.36	20	
-Observe and Report 	2009	51	40	Comedy	26.96	18	
-Obsessed 	2009	20	50	Drama	73.82	20	
-Old Dogs 	2009	5	49	Comedy	96.75	35	
-Orphan 	2009	55	65	Horror	78.33	30	
-Pandorum 	2009	28	49	Action	17.00	40	
-Paranormal Activity 	2009	82	56	Horror	196.68	0.015	
-Paul Blart: Mall Cop 	2009	33	50	Action	183.28	26	
-Pirate Radio (The Boat that Rocked, UK)	2009	60	72	Comedy	36.34	50	
-Planet 51 	2009	22	45	Animation	105.64	70	
-Post Grad 	2009	7	31	Comedy	6.38	15	
-Public Enemies 	2009	67	65	Biography	214.10	100	
-Push 	2009	22	47	Action	48.85	38	
-Race to Witch Mountain 	2009	42	50	Action	106.38	50	
-Saw VI 	2009	40	67	Horror	68.19	11	
-Sherlock Holmes 	2009	70	81	Action	524.02	90	
-Sorority Row 	2009	22	38	Horror	27.21	12.5	
-Star Trek 	2009	94	91	Action	385.65	140	
-State of Play 	2009	84	71	Crime	88.30	60	
-Street Fighter: The Legend of Chun-Li 	2009	16	28	Action	12.34	50	
-Sunshine Cleaning 	2009	72	59	Comedy	16.57	5	
-Surrogates 	2009	39	42	Action	122.43	80	
-Taken 	2009	58	83	Action	226.80	25	
-Taking Woodstock 	2009	48	48	Comedy	10.00	29	
-Terminator Salvation 	2009	33	64	Action	372.00	200	
-The Blind Side 	2009	65	90	Biography	309.04	29	Best Actress
-The Box 	2009	46	27	Drama	33.38	30	
-The Final Destination 	2009	29	52	Horror	185.80	40	
-The Fourth Kind 	2009	18	44	Mystery	47.70	10	
-The Hangover 	2009	79	87	Comedy	467.46	35	
-The Haunting in Connecticut 	2009	17	51	Drama	77.52	30	
-The Hurt Locker 	2009	97	83	Drama	49.22	15	Best Picture, Director, Original Screenplay
-The Informant! 	2009	78	42	Comedy	41.76	22	
-The International 	2009	58	39	Action	60.10	50	
-The Invention of Lying 	2009	56	47	Comedy	32.40	18.5	
-The Lovely Bones 	2009	32	57	Drama	94.78	65	
-The Men Who Stare at Goats 	2009	52	43	Comedy	68.94	25	
-The Pink Panther 2 	2009	12	47	Adventure	75.94	59	
-The Princess and the Frog 	2009	84	72	Animation	267.04	105	
-The Proposal 	2009	43	74	Comedy	314.70	40	
-The Road 	2009	75	65	Adventure	27.41	25	
-The Soloist 	2009	56	59	Drama	38.43	60	
-The Stepfather	2009	12	48	Mystery	31.20	20	
-The Taking of Pelham 1 2 3 	2009	51	60	Action	150.16	100	
-The Time Traveler's Wife 	2009	38	65	Drama	101.33	39	
-The Twilight Saga: New Moon 	2009	27	78	Drama	709.82	50	
-The Ugly Truth 	2009	14	68	Comedy	205.30	38	
-The Unborn	2009	11	39	Horror	76.51	16	
-The Uninvited 	2009	31	52	Drama	42.70		
-Transformers: Revenge of the Fallen 	2009	20	76	Action	836.30	210	
-Underworld: Rise of the Lycans 	2009	30	68	Action	91.35	35	
-Up 	2009	98	86	Animation	731.30	175	Animated
-Up in the Air 	2009	90	76	Drama	166.82	25	
-Watchmen 	2009	64	68	Action	185.30	130	
-Whatever Works 	2009	50	63	Comedy	35.10	15	
-Where the Wild Things Are 	2009	73	59	Adventure	99.12	100	
-Whip It 	2009	84	73	Drama	16.00	15	
-Whiteout 	2009	7	28	Action	12.20	35	
-X-Men Origins: Wolverine 	2009	37	72	Action	373.10	150	
-Year One 	2009	14	31	Adventure	62.35	60	
-Zombieland 	2009	90	87	Action	102.79	23.6	
-10,000 B.C.	2008	9	44	Adventure	269.78	105.00	
-21	2008	35	73	Crime	157.85	35.00	
-27 Dresses	2008	40	71	Comedy	160.31	30.00	
-88 Minutes	2008	5	51	Drama	32.58	30.00	
-Appaloosa	2008	77	55	Action	27.59	20.00	
-Australia	2008	55	69	Adventure	208.49	78.00	
-Baby Mama	2008	63	59	Comedy	64.02	70.00	
-Babylon A.D.	2008	7	32	Action	70.21	45.00	
-Bangkok Dangerous	2008	9	33	Action	46.60	45.00	
-Be Kind, Rewind	2008	65	57	Comedy	30.58	20.00	
-Bedtime Stories	2008	25	63	Comedy	218.35	80.00	
-Beverly Hills Chihuahua	2008	41	56	Adventure	145.20	20.00	
-Body of Lies	2008	53	65	Action	114.89	67.50	
-Bolt	2008	89	76	Animation	305.83	150.00	
-Burn After Reading	2008	78	64	Comedy	163.72	37.00	
-Cadillac Records	2008	67	64	Biography	8.88	12.00	
-Changeling	2008	62	84	Drama	113.01	55.00	
-City of Ember	2008	52	48	Adventure	17.89	38.00	
-Cloverfield	2008	77	67	Action	170.77	25.00	
-College Road Trip	2008	13	56	Adventure	51.54	140.00	
-Death Race	2008	42	69	Action	75.46	45.00	
-Definitely, Maybe	2008	71	72	Comedy	55.21	7.00	
-Disaster Movie	2008	2	28	Comedy	34.81	20.00	
-Doomsday	2008	48	47	Action	22.21	33.00	
-Doubt	2008	78	75	Drama	36.19	25.00	
-Dr. Seuss' Horton Hears a Who!	2008	79	75	Animation	297.13	85.00	
-Drillbit Taylor	2008	26	49	Comedy	49.68	40.00	
-Eagle Eye	2008	27	72	Action	177.80	80.00	
-Expelled: No Intelligence Allowed	2008	10	42	Documentary	7.72	3.50	
-Fireproof	2008	40	51	Drama	33.47	0.50	
-First Sunday	2008	13	59	Comedy	38.80	13.00	
-Fly Me to the Moon	2008	18	26	Animation	40.32	25.00	
-Fool's Gold	2008	11	53	Adventure	109.36	72.50	
-Forgetting Sarah Marshall	2008	85	75	Comedy	104.93	30.00	
-Four Christmases	2008	26	52	Comedy	161.83	80.00	
-Get Smart	2008	51	73	Action	230.69	80.00	
-Ghost Town	2008	85	60	Comedy	26.96	20.00	
-Gran Torino	2008	80	90	Drama	269.96	33.00	
-Hancock	2008	40	67	Action	624.39	150.00	
-Harold and Kumar Escape from Guantanamo Bay	2008	54	65	Adventure	43.49	12.00	
-Hellboy II: The Golden Army	2008	87	70	Action	160.19	82.50	
-High School Musical 3: Senior Year	2008	65	76	Comedy	252.04	11.00	
-Igor	2008	36	42	Animation	30.66	30.00	
-In Bruges	2008	81	85	Crime	33.39	15.00	
-Indiana Jones and the Kingdom of the Crystal Skull	2008	77	59	Action	786.56	185.00	
-Iron Man	2008	94	91	Action	585.07	186.00	
-Journey to the Center of the Earth	2008	61	55	Action	241.99	45.00	
-Jumper	2008	16	50	Action	222.23	82.50	
-Kit Kittredge: An American Girl	2008	78	26	Drama	17.66	10.00	
-Kung Fu Panda	2008	88	83	Animation	631.74	200.00	
-Lakeview Terrace	2008	46	44	Crime	44.65	20.00	
-Leatherheads	2008	52	41	Comedy	41.16	58.00	
-Mad Money	2008	22	51	Comedy	26.41	22.00	
-Madagascar: Escape 2 Africa	2008	64	73	Animation	600.82	150.00	
-Made of Honor	2008	13	61	Comedy	105.96	40.00	
-Mamma Mia!	2008	53	76	Comedy	609.47	66.00	
-Marley and Me	2008	63	77	Comedy	206.07	55.00	
-Max Payne	2008	16	36	Action	85.38	35.00	
-Meet Dave	2008	19	42	Adventure	50.65	60.00	
-Meet the Spartans	2008	2	31	Comedy	84.65	30.00	
-Milk	2008	94	88	Biography	50.16	20.00	Best Actor, Original Screenplay
-Miracle at St. Anna	2008	34	68	Action	9.12	45.00	
-Mirrors	2008	14	49	Horror	77.49	35.00	
-Miss Pettigrew Lives for a Day	2008	78	70	Comedy	15.17	60.00	
-My Best Friend's Girl	2008	14	51	Comedy	41.62	20.00	
-Never Back Down	2008	23	37	Action	41.63	21.00	
-Nick and Norah's Infinite Playlist	2008	73	67	Comedy	33.53	10.00	
-Nights in Rodanthe	2008	31	56	Drama	79.24	30.00	
-Nim's Island	2008	51	50	Adventure	100.08	37.00	
-One Missed Call	2008	0	36	Horror	44.51	20.00	
-Over Her Dead Body	2008	15	47	Comedy	20.71	10.00	
-Penelope	2008	52	74	Comedy	20.74	15.00	
-Pineapple Express	2008	68	74	Action	101.62	26.00	
-Pride & Glory	2008	34	54	Crime	31.15	30.00	
-Prom Night	2008	8	46	Horror	57.19	18.00	
-Punisher: War Zone	2008	27	47	Action	10.09	35.00	
-Quantum of Solace	2008	64	62	Action	584.52	230.00	
-Quarantine	2008	59	46	Horror	41.31	12.00	
-Rachel Getting Married	2008	85	61	Drama	16.61	12.00	
-Rambo	2008	36	70	Action	113.24	47.50	
-Religulous	2008	70	78	Documentary	13.14	2.50	
-Righteous Kill	2008	19	44	Crime	78.45	60.00	
-Role Models	2008	77	75	Comedy	91.77	28.00	
-Saw V	2008	13	63	Crime	113.86	10.80	
-Semi-Pro	2008	21	41	Comedy	43.88	2.60	
-Seven Pounds	2008	27	77	Drama	158.25	55.00	
-Sex and the City	2008	49	81	Comedy	415.25	57.50	
-Sex Drive	2008	46	61	Adventure	18.75	19.00	
-Shutter	2008	7	40	Horror	47.88	8.00	
-Slumdog Millionaire	2008	94	90	Crime	375.79	15.00	Best Picture, Director, Adapted Screenplay
-Smart People	2008	50	41	Comedy	11.65	7.00	
-Soul Men	2008	45	42	Comedy	12.33	0.00	
-Space Chimps	2008	36	37	Animation	64.83	37.00	
-Speed Racer	2008	38	61	Action	93.95	120.00	
-Star Wars: The Clone Wars	2008	19	46	Animation	68.28	8.50	
-Step Brothers	2008	54	68	Comedy	128.11	65.00	
-Step Up 2: The Streets	2008	26	81	Drama	150.82	17.50	
-Stop-Loss	2008	65	27	Drama	11.18	25.00	
-Street Kings	2008	37	62	Action	65.57	20.00	
-Superhero Movie	2008	15	36	Comedy	71.22	65.00	
-Swing Vote	2008	36	44	Comedy	17.63	20.00	
-The Bank Job	2008	78	74	Thriller	64.82	20.00	
-The Boy in the Striped Pyjamas	2008	63	84	Drama	40.07	12.50	
-The Chronicles of Narnia: Prince Caspian	2008	66	78	Action	419.67	200.00	
-The Curious Case of Benjamin Button	2008	73	81	Fantasy	285.43	160.00	
-The Dark Knight	2008	94	96	Thriller	999.49	185.00	Supporting Actor
-The Day the Earth Stood Still 	2008	19	34	Thriller	228.03	100.00	
-The Duchess	2008	60	68	Drama	43.31	13.50	
-The Express	2008	62	73	Biopic	9.80	37.50	
-The Eye	2008	22	51	Horror	56.96	12.00	
-The Forbidden Kingdom	2008	64	65	Action	127.98	55.00	
-The Happening	2008	19	29	Thriller	163.40	48.00	
-The Haunting of Molly Hartley	2008	3	22	Horror	14.89	5.00	
-The House Bunny	2008	39	54	Comedy	70.44	25.00	
-The Incredible Hulk	2008	67	75	Action	263.15	137.50	
-The Longshots	2008	39	39	Comedy	11.74	30.00	
-The Love Guru	2008	14	38	Comedy	40.83	62.00	
-The Mummy: Tomb of the Dragon Emperor	2008	14	40	Action	400.91	145.00	
-The Other Boleyn Girl	2008	41	65	Drama	77.71	40.00	
-The Pirates Who Don't Do Anything	2008	41			12.90	15.00	
-The Ruins	2008	46	32	Horror	22.73	25.00	
-The Secret Life of Bees	2008	56	78	Drama	39.61	11.00	
-The Sisterhood of the Traveling Pants 2	2008	65	67		44.35	27.00	
-The Spiderwick Chronicles	2008	79	67	Fantasy	162.84	92.50	
-The Spirit	2008	14	29	Action	36.98	6.00	
-The Strangers	2008	44	48	Horror	82.39	9.00	
-The Tale of Despereaux	2008	54	46	Animation	88.71	55.00	
-The Visitor	2008	92	83	Drama	18.08	4.00	
-The Women	2008	13	41	Drama	50.01	16.00	
-The X-Files: I Want to Believe	2008	32	34	Thriller	68.37	35.00	
-Traitor	2008	55	66	Thriller	27.66	22.00	
-Transporter 3	2008	36	58	Action	108.98	30.00	
-Tropic Thunder	2008	83	69	Comedy	188.04	90.00	
-Twilight	2008	49	82	Romance	376.66	37.00	
-Tyler Perry's Meet the Browns	2008	31	36	Drama	41.98	20.00	
-Tyler Perry's The Family That Preys	2008	51	36	Drama	37.11	10.00	
-Under the Same Moon	2008	72	37		23.31	1.70	
-Untraceable	2008	14	56	Thriller	52.66	35.00	
-Valkyrie	2008	58	66	Thriller	200.28	75.00	
-Vantage Point	2008	35	61		151.16	40.00	
-Vicky Cristina Barcelona	2008	82	73	Romance	96.03	16.00	
-W.	2008	60	42	Drama	29.50	25.10	
-WALL-E	2008	96	89	Animation	521.28	180.00	Animated
-Wanted	2008	73	72	Action	341.25	75.00	
-Welcome Home, Roscoe Jenkins	2008	24	64	Comedy	43.40	35.00	
-What Happens in Vegas	2008	28	72	Comedy	219.37	35.00	
-Yes Man	2008	43	72	Comedy	223.24	70.00	
-You Don't Mess with the Zohan	2008	36	50	Comedy	199.93	80.00	
-Zack and Miri Make a Porno	2008	64	70	Romance	41.94	24.00	
-300	2007	60	90	Action	456.07	65.00	
-3:10 to Yuma	2007	88	85	Western	69.78	48.00	
-30 Days of Night	2007	50	57	Horror	75.10	32.00	
-Across the Universe	2007	54	84	Romance	29.37	45.00	
-Alien vs. Predator -- Requiem	2007	14	37	Horror	128.88	40.00	
-Alvin and the Chipmunks	2007	26	73	Animation	360.47	70.00	
-American Gangster	2007	79	87	Thriller	267.90	100.00	
-Bee Movie	2007	52	57	Animation	287.12	150.00	
-Beowulf	2007	71	52	Action	196.26	150.00	
-Blades of Glory	2007	69	66	Comedy	145.71	61.00	
-Charlie Wilson's War	2007	82	73	Biography	118.48	75.00	
-Daddy Day Camp	2007	1	63	Comedy	18.20	6.00	
-Disturbia	2007	67	75	Thriller	117.76	20.00	
-Dragon Wars (aka D-War)	2007	27	44	Action	74.25	75.00	
-Enchanted	2007	93	80	Comedy	340.49	85.00	
-Epic Movie	2007	2	38	Comedy	86.87	20.00	
-Evan Almighty	2007	23	56	Comedy	173.39	175.00	
-Fantastic Four: Rise of the Silver Surfer	2007	35	55	Action	289.05	130.00	
-Ghost Rider	2007	28	56	Action	228.74	110.00	
-Good Luck Chuck	2007	3	61	Comedy	59.19	25.00	
-Grindhouse	2007	82	86	Action	50.19	53.00	
-Hairspray	2007	92	84	Musical	202.55	75.00	
-Halloween	2007	26	64	Horror	78.47	20.00	
-Happily N'Ever After	2007	4	43	Animation	38.08	47.00	
-Harry Potter and the Order of the Phoenix	2007	78	82	Adventure	939.88	150	
-Hitman	2007	15	61	Action	99.96	17.50	
-Hostel: Part II	2007	44	45	Horror	35.62	10.00	
-I Am Legend	2007	69	69	Thriller	584.16	150.00	
-I Now Pronounce You Chuck and Larry	2007	13	73	Comedy	186.05	85.00	
-In the Land of Women	2007	43	72	Comedy	17.56	10.00	
-Into the Wild	2007	82	90	Drama	55.63	15.00	
-Juno	2007	94	89	Comedy	231.18	7.50	Original Screenplay
-Knocked Up	2007	91	83	Comedy	219.00	33.00	
-License to Wed	2007	8	55	Comedy	69.31	35.00	
-Lions for Lambs	2007	27	48	Drama	63.21	35.00	
-Live Free or Die Hard	2007	79	86	Action	383.53	110.00	
-Meet the Robinsons	2007	66	75	Animation	169.33	100.00	
-Michael Clayton	2007	90	72	Thriller	92.99	25.00	Supporting Actress
-Mr. Brooks	2007	56	75	Thriller	48.12	20.00	
-Mr. Magorium's Wonder Emporium	2007	36	56	Fantasy	68.95	25.00	
-Music and Lyrics	2007	63	70	Romance	145.90	40.00	
-Nancy Drew	2007	49	61	Thriller	30.67	20.00	
-National Treasure: Book of Secrets	2007	31	72	Thriller	457.36	130.00	
-Next	2007	29	59	Thriller	73.54	70.00	
-No Country for Old Men	2007	95	84	Drama	161.00	25.00	Best Picture, Director, Supporting Actor, Adapted Screenplay
-No Reservations	2007	39	64	Comedy	92.60	28.00	
-Norbit	2007	9	56	Comedy	159.31	60.00	
-Ocean's 13	2007	70	74	Thriller	311.31	85.00	
-P.S. I Love You	2007	21	82	Romance	153.09	30.00	
-Pathfinder: Legend of the Ghost Warrior	2007	11	41	Action	30.82	26.00	
-Pirates of the Caribbean: At World's End	2007	45	74	Action	961.00	300.00	
-Premonition	2007	8	55	Drama	84.00	20.00	
-Ratatouille	2007	97	84	Animation	621.42	150.00	Animated
-Rush Hour 3	2007	20	68	Action	258.02	140.00	
-Saw IV	2007	18	70	Horror	139.35	10.00	
-Shoot 'Em Up	2007	67	66	Action	26.81	39.00	
-Shooter	2007	47	82	Action	95.70	61.00	
-Shrek the Third	2007	42	57	Animation	798.96	160.00	
-Sicko	2007	93	87	Documentary	35.77	9.00	
-Smokin' Aces	2007	27	64	Action	57.10	17.00	
-Spider-Man 3	2007	61	54	Action	890.87	258.00	
-Stardust	2007	76	86	Adventure	135.56	70	
-Stomp the Yard	2007	27	83	Musical	75.51	14.00	
-Superbad	2007	88	87	Comedy	169.87	20.00	
-Surf's Up	2007	78	64	Animation	149.04	85.00	
-Sweeney Todd: The Demon Barber of Fleet Street	2007	86	81	Musical	152.52	50.00	
-The Bourne Ultimatum	2007	93	91	Thriller	442.82	110.00	
-The Brave One	2007	43	65	Action	69.79	70.00	
-The Bucket List	2007	41	81	Drama	174.31	45.00	
-The Darjeeling Limited	2007	67	79	Drama	34.92	17.50	
-The Game Plan	2007	27	75	Comedy	147.87	22.00	
-The Golden Compass	2007	42	55	Action	372.23	180.00	
-The Heartbreak Kid	2007	30	41	Comedy	127.77	60.00	
-The Hills Have Eyes 2	2007	11	50	Horror	37.47	15.00	
-The Invasion	2007	19	43	Sci-Fi	40.17	80.00	
-The Kingdom	2007	52	78	Action	86.61	80.00	
-The Kite Runner	2007	66	85	Drama	73.19	20.00	
-The Mist	2007	72	64	Horror	56.83	18.00	
-The Nanny Diaries	2007	33	52	Comedy	47.00	20.00	
-The Reaping	2007	9	53	Horror	62.77	40.00	
-The Simpsons Movie	2007	90	78	Comedy	527.07	75.00	
-There Will Be Blood	2007	91	84	Drama	76.18	25.00	Best Actor
-TMNT	2007	33	63	Action	95.01	35.00	
-Transformers	2007	57	89	Action	708.27	150.00	
-Tyler Perry's Why Did I get Married	2007	46	47	Romance	55.86	15.00	
-Vacancy	2007	55	46	Comedy	35.30	19.00	
-Waitress	2007	89	67	Romance	22.18	2.00	
-Walk Hard: The Dewey Cox Story	2007	75	55	Comedy	20.58	35.00	
-We Own the Night	2007	55	63	Drama	54.83	21.00	
-Wild Hogs	2007	14	72	Comedy	253.63	90.00	
-Zodiac	2007	89	73	Thriller	84.79	65.00	
+film	tomatoScore	audienceScore	nominee	oscar	year
+Ratatouille	97	84	x	Animated	2007
+There Will Be Blood	91	84	x	Best Actor	2007
+No Country for Old Men	95	84	x	Best Picture, Director, Supporting Actor, Adapted Screenplay	2007
+Juno	94	89	x	Original Screenplay	2007
+Michael Clayton	90	72	x	Supporting Actress	2007
+Sweeney Todd: The Demon Barber of Fleet Street	86	81	x		2007
+Into the Wild	82	90	x		2007
+Charlie Wilson's War	82	73	x		2007
+American Gangster	79	87	x		2007
+Surf's Up	78	64	x		2007
+The Bourne Ultimatum	93	91			2007
+Enchanted	93	80			2007
+Sicko	93	87			2007
+Hairspray	92	84			2007
+Knocked Up	91	83			2007
+The Simpsons Movie	90	78			2007
+Waitress	89	67			2007
+Zodiac	89	73			2007
+Superbad	88	87			2007
+3:10 to Yuma	88	85			2007
+Grindhouse	82	86			2007
+Live Free or Die Hard	79	86			2007
+Harry Potter and the Order of the Phoenix	78	82			2007
+Stardust	76	86			2007
+Walk Hard: The Dewey Cox Story	75	55			2007
+The Mist	72	64			2007
+Beowulf	71	52			2007
+Ocean's 13	70	74			2007
+I Am Legend	69	69			2007
+Blades of Glory	69	66			2007
+Disturbia	67	75			2007
+The Darjeeling Limited	67	79			2007
+Shoot 'Em Up	67	66			2007
+The Kite Runner	66	85			2007
+Meet the Robinsons	66	75			2007
+Music and Lyrics	63	70			2007
+Spider-Man 3	61	54			2007
+300	60	90			2007
+Transformers	57	89			2007
+Mr. Brooks	56	75			2007
+We Own the Night	55	63			2007
+Vacancy	55	46			2007
+Across the Universe	54	84			2007
+Bee Movie	52	57			2007
+The Kingdom	52	78			2007
+30 Days of Night	50				2007
+Nancy Drew	49	61			2007
+Shooter	47	82			2007
+Tyler Perry's Why Did I get Married	46	47			2007
+Pirates of the Caribbean: At World's End	45	74			2007
+Hostel: Part II	44	45			2007
+In the Land of Women	43	72			2007
+The Brave One	43	65			2007
+Shrek the Third	42	57			2007
+The Golden Compass	42	55			2007
+The Bucket List	41	81			2007
+No Reservations	39	64			2007
+Mr. Magorium's Wonder Emporium	36	56			2007
+Fantastic Four: Rise of the Silver Surfer	35	55			2007
+TMNT	33	63			2007
+The Nanny Diaries	33	52			2007
+National Treasure: Book of Secrets	31	72			2007
+The Heartbreak Kid	30	41			2007
+Next	29	59			2007
+Ghost Rider	28	56			2007
+The Game Plan	27	75			2007
+Stomp the Yard	27	83			2007
+Smokin' Aces	27	64			2007
+Lions for Lambs	27	48			2007
+Dragon Wars (aka D-War)	27	44			2007
+Alvin and the Chipmunks	26	73			2007
+Halloween	26	64			2007
+Evan Almighty	23	56			2007
+P.S. I Love You	21	82			2007
+Rush Hour 3	20	68			2007
+The Invasion	19	43			2007
+Saw IV	18	70			2007
+Hitman	15	61			2007
+Alien vs. Predator -- Requiem	14	37			2007
+Wild Hogs	14	72			2007
+I Now Pronounce You Chuck and Larry	13	73			2007
+The Hills Have Eyes 2	11	50			2007
+Pathfinder: Legend of the Ghost Warrior	11	41			2007
+Norbit	9	56			2007
+The Reaping	9	53			2007
+Premonition	8	55			2007
+License to Wed	8	55			2007
+Happily N'Ever After	4	43			2007
+Good Luck Chuck	3	61			2007
+Epic Movie	2	38			2007
+Daddy Day Camp	1	63			2007
+WALL-E	96	89	x	Animated	2008
+Milk	94	88	x	Best Actor, Original Screenplay	2008
+Slumdog Millionaire	94	90	x	Best Picture, Director, Adapted Screenplay	2008
+The Dark Knight	94	96	x	Supporting Actor	2008
+The Visitor	92	83	x		2008
+Bolt	89	76	x		2008
+Kung Fu Panda	88	83	x		2008
+Rachel Getting Married	85	61	x		2008
+Tropic Thunder	83	69	x		2008
+Vicky Cristina Barcelona	82	73	x		2008
+In Bruges	81	85	x		2008
+Doubt	78	75	x		2008
+The Curious Case of Benjamin Button	73	81	x		2008
+Changeling	62	84	x		2008
+Iron Man	94	91			2008
+Hellboy II: The Golden Army	87	70			2008
+Forgetting Sarah Marshall	85	75			2008
+Ghost Town	85	60			2008
+Gran Torino	80	90			2008
+Dr. Seuss' Horton Hears a Who!	79	75			2008
+The Spiderwick Chronicles	79	67			2008
+Burn After Reading	78	64			2008
+Kit Kittredge: An American Girl	78	26			2008
+Miss Pettigrew Lives for a Day	78	70			2008
+The Bank Job	78	74			2008
+Appaloosa	77	55			2008
+Cloverfield	77	67			2008
+Indiana Jones and the Kingdom of the Crystal Skull	77	59			2008
+Role Models	77	75			2008
+Nick and Norah's Infinite Playlist	73	67			2008
+Wanted	73	72			2008
+Under the Same Moon	72				2008
+Definitely, Maybe	71	72			2008
+Religulous	70	78			2008
+Pineapple Express	68	74			2008
+Cadillac Records	67	64			2008
+The Incredible Hulk	67	75			2008
+The Chronicles of Narnia: Prince Caspian	66	78			2008
+Be Kind, Rewind	65	57			2008
+High School Musical 3: Senior Year	65	76			2008
+Stop-Loss	65	27			2008
+Madagascar: Escape 2 Africa	64	73			2008
+Quantum of Solace	64	62			2008
+The Forbidden Kingdom	64	65			2008
+Zack and Miri Make a Porno	64	70			2008
+Baby Mama	63	59			2008
+Marley and Me	63	77			2008
+The Boy in the Striped Pyjamas	63	84			2008
+The Sisterhood of the Traveling Pants 2	63				2008
+The Express	62	73			2008
+Journey to the Center of the Earth	61	55			2008
+The Duchess	60	68			2008
+Quarantine	59	46			2008
+Valkyrie	58	66			2008
+W.	58				2008
+The Secret Life of Bees	56	78			2008
+Australia	55	69			2008
+Traitor	55	66			2008
+Harold and Kumar Escape from Guantanamo Bay	54	65			2008
+Step Brothers	54	68			2008
+The Tale of Despereaux	54	46			2008
+Body of Lies	53	65			2008
+Mamma Mia!	53	76			2008
+City of Ember	52	48			2008
+Leatherheads	52	41			2008
+Penelope	52	74			2008
+Get Smart	51	73			2008
+Nim's Island	51	50			2008
+Tyler Perry's The Family That Preys	51	36			2008
+Smart People	50	41			2008
+Sex and the City	49	81			2008
+Twilight	49	82			2008
+Doomsday	48	47			2008
+Lakeview Terrace	46	44			2008
+Sex Drive	46	61			2008
+The Ruins	46	32			2008
+Soul Men	45	42			2008
+The Strangers	44	48			2008
+Yes Man	43	72			2008
+Death Race	42	69			2008
+Beverly Hills Chihuahua	41	56			2008
+The Other Boleyn Girl	41	65			2008
+The Pirates Who Don't Do Anything	41				2008
+27 Dresses	40	71			2008
+Fireproof	40	51			2008
+Hancock	40	67			2008
+The House Bunny	39	54			2008
+The Longshots	39	39			2008
+Speed Racer	38	61			2008
+Street Kings	37	62			2008
+Igor	36	42			2008
+Rambo	36	70			2008
+Space Chimps	36	37			2008
+Swing Vote	36	44			2008
+Transporter 3	36	58			2008
+Vantage Point	36				2008
+You Don't Mess with the Zohan	36	50			2008
+21	35	73			2008
+Miracle at St. Anna	34	68			2008
+Pride & Glory	34	54			2008
+The X-Files: I Want to Believe	32	34			2008
+Nights in Rodanthe	31	56			2008
+Tyler Perry's Meet the Browns	31	36			2008
+What Happens in Vegas	28	72			2008
+Eagle Eye	27	72			2008
+Punisher: War Zone	27	47			2008
+Seven Pounds	27	77			2008
+Drillbit Taylor	26	49			2008
+Four Christmases	26	52			2008
+Step Up 2: The Streets	26	81			2008
+Bedtime Stories	25	63			2008
+Welcome Home, Roscoe Jenkins	24	64			2008
+Never Back Down	23	37			2008
+Mad Money	22	51			2008
+The Eye	22	51			2008
+Semi-Pro	21	41			2008
+Meet Dave	19	42			2008
+Righteous Kill	19	44			2008
+Star Wars: The Clone Wars	19	46			2008
+The Day the Earth Stood Still 	19	34			2008
+The Happening	19	29			2008
+Fly Me to the Moon	18	26			2008
+Jumper	16	50			2008
+Max Payne	16	36			2008
+Over Her Dead Body	15	47			2008
+Superhero Movie	15	36			2008
+Mirrors	14	49			2008
+My Best Friend's Girl	14	51			2008
+The Love Guru	14	38			2008
+The Mummy: Tomb of the Dragon Emperor	14	40			2008
+The Spirit	14	29			2008
+Untraceable	14	56			2008
+College Road Trip	13	56			2008
+First Sunday	13	59			2008
+Made of Honor	13	61			2008
+Saw V	13	63			2008
+The Women	13	41			2008
+Fool's Gold	11	53			2008
+Expelled: No Intelligence Allowed	10	42			2008
+10,000 B.C.	9	44			2008
+Bangkok Dangerous	9	33			2008
+Prom Night	8	46			2008
+Babylon A.D.	7	32			2008
+Shutter	7	40			2008
+88 Minutes	5	51			2008
+The Haunting of Molly Hartley	3	22			2008
+Disaster Movie	2	28			2008
+Meet the Spartans	2	31			2008
+One Missed Call	0	36			2008
+Up 	98	86	x	Animated	2009
+The Blind Side 	65	90	x	Best Actress	2009
+The Hurt Locker 	97	83	x	Best Picture, Director, Original Screenplay	2009
+Inglourious Basterds 	88	87	x	Supporting Actor	2009
+Fantastic Mr. Fox 	93	80	x		2009
+District 9 	91	81	x		2009
+Up in the Air 	90	76	x		2009
+A Serious Man 	89	64	x		2009
+Coraline 	89	77	x		2009
+The Princess and the Frog 	84	72	x		2009
+Avatar 	83	92	x		2009
+Invictus	75	74	x		2009
+Julie & Julia 	74	69	x		2009
+Nine 	37	40	x		2009
+The Lovely Bones 	32	57	x		2009
+Star Trek 	94	91			2009
+Drag Me to Hell 	92	61			2009
+Zombieland 	90	87			2009
+Adventureland 	89	56			2009
+(500) Days of Summer 	87	81			2009
+Cloudy with a Chance of Meatballs 	86	70			2009
+State of Play 	84	71			2009
+Whip It 	84	73			2009
+Harry Potter and the Half-Blood Prince 	83	75			2009
+I Love You, Man 	83	72			2009
+Paranormal Activity 	82	56			2009
+Michael Jackson's This Is It 	81	82			2009
+Bandslam 	79	60			2009
+The Hangover 	79	87			2009
+The Informant! 	78	42			2009
+The Road 	75	65			2009
+Where the Wild Things Are 	73	59			2009
+Monsters Vs. Aliens 	72	65			2009
+Sunshine Cleaning 	72	59			2009
+Sherlock Holmes 	70	81			2009
+Bruno 	68	48			2009
+Funny People 	68	58			2009
+Away We Go 	67	74			2009
+Public Enemies 	67	65			2009
+Duplicity 	64	38			2009
+Watchmen 	64	68			2009
+Crank: High Voltage 	62	54			2009
+Extract 	62	37			2009
+A Perfect Getaway 	61	50			2009
+Brothers 	61	62			2009
+Pirate Radio (The Boat that Rocked, UK)	60	72			2009
+Taken 	58	83			2009
+The International 	58	39			2009
+9	57	58			2009
+My Bloody Valentine 3-D 	57	48			2009
+It's Complicated 	56	63			2009
+The Invention of Lying 	56	47			2009
+The Soloist 	56	59			2009
+17 Again 	55	70			2009
+Orphan 	55	65			2009
+A Christmas Carol	52	72			2009
+The Men Who Stare at Goats 	52	43			2009
+Observe and Report 	51	40			2009
+The Taking of Pelham 1 2 3 	51	60			2009
+Notorious	50	66			2009
+Whatever Works 	50	63			2009
+Astro Boy 	49	53			2009
+Taking Woodstock 	48	48			2009
+My Sister's Keeper 	47	73			2009
+Everybody's Fine 	46	55			2009
+Hotel for Dogs 	46	57			2009
+The Box 	46	27			2009
+Ice Age: Dawn of the Dinosaurs 	45	72			2009
+Hannah Montana: The Movie 	44	66			2009
+Night at the Museum: Battle of the Smithsonian 	43	60			2009
+The Proposal 	43	74			2009
+He's Just Not That Into You 	42	60			2009
+Jennifer's Body 	42	37			2009
+Race to Witch Mountain 	42	50			2009
+Armored 	40	34			2009
+Saw VI 	40	67			2009
+2012	39	63			2009
+Inkheart 	39	51			2009
+Surrogates 	39	42			2009
+Cirque du Freak: The Vampire's Assistant 	38	50			2009
+Imagine That 	38	44			2009
+The Time Traveler's Wife 	38	65			2009
+X-Men Origins: Wolverine 	37	72			2009
+Angels & Demons 	36	65			2009
+Not Easily Broken 	34	66			2009
+G.I. Joe: The Rise of Cobra 	33	62			2009
+Knowing 	33	50			2009
+Paul Blart: Mall Cop 	33	50			2009
+Terminator Salvation 	33	64			2009
+The Uninvited 	31	52			2009
+12 Rounds 	30	52			2009
+Aliens in the Attic 	30	46			2009
+Underworld: Rise of the Lycans 	30	68			2009
+Gamer 	29	43			2009
+The Final Destination 	29	52			2009
+Fast and Furious 	28	76			2009
+Pandorum 	28	49			2009
+Ghosts of Girlfriends Past 	27	47			2009
+The Twilight Saga: New Moon 	27	78			2009
+Land of the Lost 	26	38			2009
+Fame	25	43			2009
+Friday the 13th	25	52			2009
+Law Abiding Citizen 	25	77			2009
+Ninja Assassin 	25	57			2009
+Confessions of a Shopaholic 	24	53			2009
+Fired Up! 	22	52			2009
+G-Force 	22	50			2009
+Planet 51 	22	45			2009
+Push 	22	47			2009
+Sorority Row 	22	38			2009
+Alvin and the Chipmunks: The Squeakquel 	21	59			2009
+Amelia 	21	35			2009
+Next Day Air 	21	27			2009
+Halloween II	20	45			2009
+Obsessed 	20	50			2009
+Transformers: Revenge of the Fallen 	20	76			2009
+Love Happens 	18	40			2009
+The Fourth Kind 	18	44			2009
+Dance Flick 	17	35			2009
+The Haunting in Connecticut 	17	51			2009
+Street Fighter: The Legend of Chun-Li 	16	28			2009
+Dragonball Evolution 	15	28			2009
+I Love You Beth Cooper 	14	38			2009
+The Ugly Truth 	14	68			2009
+Year One 	14	31			2009
+Couples Retreat 	12	47			2009
+Did You Hear About the Morgans? 	12	31			2009
+The Pink Panther 2 	12	47			2009
+The Stepfather	12	48			2009
+Bride Wars 	11	56			2009
+The Unborn	11	39			2009
+My Life in Ruins 	9	43			2009
+Post Grad 	7	31			2009
+Whiteout 	7	28			2009
+All About Steve 	6	35			2009
+Old Dogs 	5	49			2009
+Black Swan        	88	86	Best Actress	BP,Bactress	2010
+Toy Story 3	99	91	Best Animated	BP,Best Animated	2010
+The King's Speech	95	93	Best Picture, Director,  Actor, Orig. Screenplay	BP,BD,BSActor,BSActress,OS	2010
+The Fighter	91	88	Sup. Actor, Sup. Actress	BP,BD,BSActor,BSActress,OS	2010
+How to Train Your Dragon	98	90		Best Animated	2010
+127 Hours	93	84		BP,Bactor	2010
+Winter's Bone	94	73		BP,Bactress,BSActor	2010
+The Kids Are All Right	94	72		BP,Bactress,BSActor,OS	2010
+The Social Network	96	89		BP,BD,Bactor	2010
+True Grit	96	86		BP,BD,Bactor,BSActress	2010
+Inception	86	93		BP,OS	2010
+The Town	94	83		BSActor	2010
+Tangled	89	88			2010
+Please Give	88	62			2010
+Buried	86	63			2010
+Unstoppable	86	73			2010
+Easy A	85	75			2010
+The Ghost Writer	83	68			2010
+City Island	81	77			2010
+Despicable Me	81	81			2010
+Scott Pilgrim vs. the World	81	83			2010
+Solitary Man	81	47			2010
+Cyrus	80	51			2010
+Harry Potter and the Deathly Hallows Part 1	79	87			2010
+Mother and Child	79	61			2010
+The Other Guys	78	57			2010
+Nanny McPhee Returns	77	54			2010
+Kick-Ass	76	83			2010
+Greenberg	75	40			2010
+Iron Man 2	74	80			2010
+Piranha 3-D	74	45			2010
+Get Him to the Greek	73	63			2010
+Machete	73	66			2010
+The Last Exorcism	73	32			2010
+Megamind	72	73			2010
+The Crazies	72	54			2010
+I Love You Phillip Morris	71	57			2010
+Red	71	72			2010
+Never Let Me Go	70	70			2010
+Conviction	68	71			2010
+Shutter Island	68	73			2010
+The Runaways	68	56			2010
+Youth in Revolt	68	52			2010
+Daybreakers 	67	50			2010
+Date Night	66	58			2010
+The American	66	37			2010
+The Company Men	66	56			2010
+The Karate Kid	66	75			2010
+Hot Tub Time Machine	64	57			2010
+Predators	64	52			2010
+Jackass 3-D	63	72			2010
+Salt	62	62			2010
+The Joneses	61	47			2010
+Hachiko: A Dog's Story	58	85			2010
+She's Out of My League	57	60			2010
+Shrek Forever After	57	64			2010
+The Killer Inside Me	56	41			2010
+Edge of Darkness	55	56			2010
+Morning Glory	54	54			2010
+Wall Street: Money Never Sleeps	54	43			2010
+Diary of a Wimpy Kid	53	49			2010
+Going the Distance	53	56			2010
+Green Zone	53	60			2010
+Knight and Day	53	52			2010
+Alice in Wonderland	52	72			2010
+Devil	52	45			2010
+I'm Still Here	52	38			2010
+The Greatest	52	39			2010
+The Switch	52	44			2010
+Legend of the Guardians: The Owls of Ga'Hoole	51	65			2010
+The Next Three Days	51	66			2010
+Percy Jackson & the Olympians: The Lightning Thief	50	57			2010
+The Twilight Saga: Eclipse 	50	74			2010
+Tron: Legacy	50	67			2010
+Stone	49	20			2010
+The Chronicles of Narnia: The Voyage of the Dawn Treader	49	63			2010
+Love & Other Drugs	48	55			2010
+The Book of Eli        	48	68			2010
+MacGruber	47	33			2010
+The A-Team	47	71			2010
+The Losers	47	55			2010
+Step Up 3D	46	67			2010
+Just Wright	45	58			2010
+Barry Munday	43	43			2010
+Dinner for Schmucks	43	47			2010
+You Will Meet a Tall Dark Stranger	43	35			2010
+Brooklyn's Finest	42	47			2010
+Robin Hood	42	59			2010
+The Sorcerer's Apprentice	42	57			2010
+Faster 	41	50			2010
+Death at a Funeral	40	48			2010
+Due Date	40	56			2010
+Letters to Juliet	40	62			2010
+The Expendables	40	58			2010
+From Paris with Love	38	57			2010
+Burlesque	36	66			2010
+Eat Pray Love 	36	46			2010
+Prince of Persia: The Sands of Time	36	71			2010
+All Good Things	33	64			2010
+For Colored Girls	33	73			2010
+The Wolfman	33	38			2010
+Dear John	29	66			2010
+Clash of the Titans	28	48			2010
+Life as We Know It	28	62			2010
+Remember Me	28	70			2010
+Charlie St. Cloud 	27	62			2010
+Extraordinary Measures 	27	55			2010
+Takers	27	57			2010
+Why Did I Get Married Too?	27	67			2010
+Resident Evil: Afterlife	24	53			2010
+Case 39	23	42			2010
+Repo Men	22	43			2010
+Gulliver's Travels	21	31			2010
+Leap Year	21	49			2010
+Country Strong	20	56			2010
+The Back-up Plan	20	47			2010
+The Tourist	20	44			2010
+Cop Out	19	45			2010
+Legion	19	36			2010
+The Last Song	19	66			2010
+You Again	18	45			2010
+Alpha and Omega	17	41			2010
+Valentine's Day	17	54			2010
+Skyline	16	19			2010
+Tooth Fairy	16	46			2010
+Sex and the City 2	15	49			2010
+When in Rome	15	44			2010
+Our Family Wedding	14	49			2010
+Yogi Bear	14	36			2010
+A Nightmare on Elm Street	13	40			2010
+Cats & Dogs: The Revenge of Kitty Galore	13	43			2010
+Jonah Hex	13	24			2010
+The Spy Next Door	13	46			2010
+Killers	11	45			2010
+Grown Ups 	10	59			2010
+Knucklehead	10	35			2010
+Saw 3-D	10	47			2010
+Little Fockers	9	40			2010
+Marmaduke	9	46			2010
+My Soul to Take	9	29			2010
+Furry Vengeance 	8	36			2010
+The Bounty Hunter	7	41			2010
+All About Steve 	6	35			2010
+The Last Airbender	6	42			2010
+Vampires Suck	4	32			2010
+Paranormal Activity 2					2010
+Something Borrowed	?	?			2011
+The Muppets	97	87			2011
+Never Back Down 2: The Beatdown	?	?			2011
+Harry Potter and the Deathly Hallows Part 2	96	92			2011
+Moneyball	95	89			2011
+Midnight in Paris	93	84			2011
+50/50	93	93			2011
+Drive	93	79			2011
+Hugo	93	84			2011
+Source Code	92	81			2011
+Arthur Christmas	92	82			2011
+Take Shelter	92	85			2011
+Winnie The Pooh	91	79			2011
+Bridesmaids	90	77			2011
+The Descendants	89	88			2011
+Rango	88	69			2011
+X-Men: First Class	87	88			2011
+Margin Call	86	73			2011
+Cedar Rapids	86	61			2011
+The Ides of March	85	76			2011
+Beginners	84	80			2011
+Dolphin Tale	84	81			2011
+Contagion	84	63			2011
+The Lincoln Lawyer	84	82			2011
+The Tree Of Life	84	61			2011
+Rise of the Planet of the Apes	83	87			2011
+Puss In Boots	83	76			2011
+Warrior	83	93			2011
+My Week with Marilyn	83	84			2011
+Super 8 	82	78			2011
+Kung Fu Panda 2	82	80			2011
+A Dangerous Method	79	89			2011
+Fast Five	78	83			2011
+Crazy, Stupid, Love	78	81			2011
+Captain America: The First Avenger	78	75			2011
+Thor	77	80			2011
+The Debt	76	70			2011
+The Help	75	91			2011
+Fright Night	75	68			2011
+Everything Must Go	74	53			2011
+The Adjustment Bureau	72	67			2011
+Paul	72	70			2011
+A Very Harold and Kumar Christmas	72	71			2011
+Rio	71	73			2011
+Friends With Benefits	71	68			2011
+Footloose	71	71			2011
+Hanna	71	67			2011
+Limitless	69	73			2011
+Horrible Bosses	69	72			2011
+Paranormal Activity 3	68	58			2011
+Our Idiot Brother	68	79			2011
+Tower Heist	68	61			2011
+Insidious	67	65			2011
+The Company Men	66	55			2011
+Another Earth	63	74			2011
+The Beaver	62	57			2011
+Final Destination 5	61	56			2011
+Water For Elephants	60	72			2011
+Don't Be Afraid Of The Dark	59	37			2011
+Real Steel	58	81			2011
+Scream 4	58	57			2011
+Red State	57	59			2011
+Gnomeo and Juliet	56	52			2011
+The Conspirator	56	65			2011
+Unknown	55	57			2011
+Hesher	54	68			2011
+The Mechanic	53	52			2011
+Vanishing on 7th Street	52	62			2011
+The Rum Diary	50	48			2011
+No Strings Attached	49	57			2011
+Diary of a Wimpy Kid 2: Rodrick Rules	47	63			2011
+Mr. Popper's Penguins	47	54			2011
+Soul Surfer	46	79			2011
+Anonymous	46	66			2011
+Drive Angry	45	38			2011
+Bad Teacher	44	38			2011
+The Green Hornet	44	47			2011
+Cowboys and Aliens	44	50			2011
+30 Minutes or Less	43	48			2011
+J.Edgar	42	84			2011
+Happy Feet 2	41	59			2011
+The Eagle	39	43			2011
+Johnny English Reborn	38	55			2011
+In Time	38	55			2011
+Cars 2	38	56			2011
+Monte Carlo	38	50			2011
+The Big Year	38	62			2011
+One Day	37	54			2011
+Immortals	36	59			2011
+The Thing	36	52			2011
+Mars Needs Moms	36	43			2011
+The Hangover Part II	35	58			2011
+Transformers: Dark of the Moon	35	67			2011
+Battle: Los Angeles	35	50			2011
+Hall Pass	35	44			2011
+Pirates of the Caribbean: On Stranger Tides	34	61			2011
+Larry Crowne	34	46			2011
+I Am Number Four	32	57			2011
+Sanctum	30	39			2011
+Machine Gun Preacher	29	71			2011
+Colombiana	28	55			2011
+Take Me Home Tonight	28	46			2011
+Green Lantern	27	48			2011
+Twilight: Breaking Dawn	26	68			2011
+Hop	26	50			2011
+Arthur	26	49			2011
+Your Highness	26	36			2011
+Killer Elite	25	48			2011
+The Three Musketeers	24	48			2011
+What's Your Number	24	50			2011
+The Change Up	24	53			2011
+Apollo 18	23	31			2011
+The Smurfs	23	50			2011
+Sucker Punch	23	48			2011
+The Dilemma	23	31			2011
+Spy Kids: All The Time in the World	22	40			2011
+Conan the Barbarian	22	34			2011
+The Rite	20	43			2011
+Just Go With It	19	63			2011
+Beastly	19	50			2011
+The Son Of No One	18	61			2011
+Priest	17	37			2011
+Shark Night 3D	16	25			2011
+Zookeeper	14	42			2011
+Red Riding Hood	11	41			2011
+Trespass	11	24			2011
+Season Of The Witch	10	32			2011
+Dream House	7	38			2011
+Dylan Dog: Dead of Night	6	28			2011
+Waiting For Forever	6	53			2011
+The Roommate	4	29			2011
+Abduction	4	46			2011
+Jack and Jill	4	59			2011
