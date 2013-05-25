@@ -22,6 +22,7 @@ d3.tsv 'data.tsv', (error, data) ->
   data.forEach (d) ->
     d.tomatoScore = +d.tomatoScore
     d.audienceScore = +d.audienceScore
+  data = data.filter (d) -> d.tomatoScore != 0 && d.audienceScore != 0
   Chart.addDots svgChart, data, xScale, yScale
   Chart.addYearFilter data, (data) ->
     Chart.removeDots svgChart, data
