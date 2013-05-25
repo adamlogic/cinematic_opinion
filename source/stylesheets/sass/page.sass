@@ -1,11 +1,11 @@
-$color: #222234
+$foreground: #222234
 $legend-background: #2f2d48
 $legend-divider: #534d78
 $legend-text: #cdccdd
 $info: #4dfc9d
 
 %tick
-  stroke: $color
+  stroke: $foreground
   stroke-width: 1px
 
 %gridline
@@ -14,8 +14,13 @@ $info: #4dfc9d
   opacity: 0.1
 
 %label
-  fill: $color
+  fill: $foreground
   font-size: 16px
+
+%axis-label-text
+  color: $foreground
+  font-weight: normal
+  font-size: 28px
 
 body
   background: #b4b1ca
@@ -39,6 +44,28 @@ body
   fill: transparent
   stroke: $info
   stroke-width: 1.5px
+
+.y-axis-label
+  position: absolute
+  top: 59px
+  left: 20px
+  width: 206px
+  border-top: 2px solid transparentize($foreground, .3)
+  strong
+    @extend %axis-label-text
+
+.x-axis-label
+  position: absolute
+  top: 1064px
+  left: 224px
+  height: 80px
+  border-left: 2px solid transparentize($foreground, .3)
+  strong
+    position: absolute
+    bottom: 0
+    left: 5px
+    width: 400px
+    @extend %axis-label-text
 
 .x-tick
   @extend %tick
