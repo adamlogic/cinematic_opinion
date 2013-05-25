@@ -5,6 +5,7 @@
 #= require legend
 #= require filters
 #= require dots
+#= require info
 
 xScale = d3.scale.linear().range([0, Chart.width] ).domain [0, 100]
 yScale = d3.scale.linear().range([Chart.height, 0]).domain [0, 100]
