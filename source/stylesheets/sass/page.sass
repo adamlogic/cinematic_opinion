@@ -20,8 +20,10 @@ body
   background: #b4b1ca
   font-family: 'Open Sans Condensed', sans-serif
 
-svg
-  position: relative
+#overlay
+  position: absolute
+  top: 0
+  left: 0
 
 .dot
   fill: #dbd9fb
@@ -64,3 +66,22 @@ svg
   p
     margin: 0 0 3px
     font-size: 15px
+
+.year-filter
+  position: absolute
+  top: 20px
+
+.year-toggle
+  position: relative
+  display: inline-block
+  margin-right: 10px
+  padding: 0 15px 0 32px
+  height: 30px
+  line-height: 30px
+  border-radius: 15px
+  background: $legend-background
+  color: $legend-text
+  input
+    position: absolute
+    left: 12px
+    top: 8px

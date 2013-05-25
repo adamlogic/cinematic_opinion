@@ -3,12 +3,13 @@
 #= require background
 #= require axes
 #= require legend
+#= require filters
 #= require dots
 
 xScale = d3.scale.linear().range([0, Chart.width] ).domain [0, 100]
 yScale = d3.scale.linear().range([Chart.height, 0]).domain [0, 100]
 
-svg = d3.select('body').append('svg')
+svg = d3.select('#chart')
         .attr('width', Chart.width + Chart.margin.left + Chart.margin.right)
         .attr('height', Chart.height + Chart.margin.top + Chart.margin.bottom)
 
@@ -21,9 +22,12 @@ d3.tsv 'data.tsv', (error, data) ->
   data.forEach (d) ->
     d.tomatoScore = +d.tomatoScore
     d.audienceScore = +d.audienceScore
-  Chart.addDots svgChart, xScale, yScale, data
+  Chart.addDots svgChart, data, xScale, yScale
+  Chart.addYearFilter data, (data) ->
+    Chart.removeDots svgChart, data
+    Chart.addDots svgChart, data, xScale, yScale
 
 Chart.addXAxis svgChart, xScale
 Chart.addYAxis svgChart, yScale
 Chart.positionLegend()
-Chart.addLegendSymbols svg
+Chart.addLegendSymbols()
