@@ -5,15 +5,13 @@ Chart.addYearFilter = (data, callback) ->
             .map((d) -> d.key)
             .sort()
 
-  yearFilter = d3.select('.year-filter')
-                 .style('left', Chart.margin.left + 'px')
-
-  yearToggles = yearFilter.selectAll('.year-toggle')
-                          .data(years)
-                          .enter()
-                          .append('label')
-                          .classed('year-toggle', true)
-                          .text(String)
+  yearToggles = d3.select('.year-filter')
+                  .selectAll('.year-toggle')
+                  .data(years)
+                  .enter()
+                  .append('label')
+                  .classed('year-toggle', true)
+                  .text(String)
 
   selectedYears = d3.set(years)
 

@@ -3,6 +3,9 @@ $legend-background: #2f2d48
 $legend-divider: #534d78
 $legend-text: #cdccdd
 $info: #4dfc9d
+$sidebar-width: 180px
+$sidebar-padding: 20px
+$chart-margin: 30px
 
 %tick
   stroke: $foreground
@@ -23,13 +26,27 @@ $info: #4dfc9d
   font-size: 28px
 
 body
+  padding: 20px
   background: #b4b1ca
   font-family: 'Open Sans Condensed', sans-serif
 
-#overlay
+h1
+  margin: 0 0 20px
+  padding-left: $sidebar-width + $chart-margin
+  font-size: 36px
+  color: $foreground
+  text-shadow: 1px 1px 1px rgba(255,255,255,.5)
+
+.chart
+  position: relative
+  padding-left: $sidebar-width
+  margin-bottom: 50px
+
+#legend-overlay
   position: absolute
   top: 0
   left: 0
+  width: $sidebar-width
 
 .dot
   fill: #dbd9fb
@@ -47,17 +64,16 @@ body
 
 .y-axis-label
   position: absolute
-  top: 59px
-  left: 20px
-  width: 206px
+  top: 0
+  left: 0
+  width: $sidebar-width + $chart-margin
   border-top: 2px solid transparentize($foreground, .3)
   strong
     @extend %axis-label-text
 
 .x-axis-label
   position: absolute
-  top: 1064px
-  left: 224px
+  left: $sidebar-width + $chart-margin - 1
   height: 80px
   border-left: 2px solid transparentize($foreground, .3)
   strong
@@ -87,6 +103,8 @@ body
 
 .legend
   position: absolute
+  left: 0
+  width: $sidebar-width - $sidebar-padding
   padding: 15px
   background: $legend-background
   color: $legend-text
@@ -101,8 +119,7 @@ body
     font-size: 15px
 
 .year-filter
-  position: absolute
-  top: 20px
+  margin: 0 0 10px $sidebar-width + $chart-margin
 
 .year-toggle
   position: relative
@@ -121,8 +138,8 @@ body
 
 .info
   position: absolute
-  top: 80px
-  left: 250px
+  top: 20px
+  left: $sidebar-width + $chart-margin + 20px
   color: $info
   opacity: 0
 

@@ -36,3 +36,7 @@ Chart.addYAxis = (chart, scale) ->
   addLines ticks, 'y-tick', [-30,0], [0,0]
   addLines ticks, 'y-gridline', [0,0], [Chart.width,0]
   addTickLabels ticks, 'y-tick-label', -29, 16
+
+Chart.positionAxisLabels = ->
+  d3.select('.x-axis-label')
+    .style('top', Chart.height + 'px')

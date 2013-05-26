@@ -7,34 +7,38 @@
 
 %body
 
-  %svg#chart
-
-  .y-axis-label
-    %strong Audience Score (AS)
-
-  .x-axis-label
-    %strong Rotten Tomatoes Score (RTS)
-
-  .legend
-    %h2 Legend
-    %p Oscar-winning Film
-    %p Oscar-nominated Film
-    %p Regular Film
+  %h1 Navigating the Universe of Cinematic Opinion
 
   .year-filter
 
-  .info
-    %span.info-score
-      RTS
-      %span.info-tomato-score
-    %span.info-score
-      AS
-      %span.info-audience-score
+  .chart
+    %svg#chart
 
-    %h2.info-film
-      %span.info-film-name
-      (<span class="info-year"></span>)
+    .y-axis-label
+      %strong Audience Score (AS)
 
-  %svg#overlay
+    .x-axis-label
+      %strong Rotten Tomatoes Score (RTS)
+
+    .legend
+      %h2 Legend
+      %p Oscar-winning Film
+      %p Oscar-nominated Film
+      %p Regular Film
+
+    .info
+      %span.info-score
+        RTS
+        %span.info-tomato-score
+      %span.info-score
+        AS
+        %span.info-audience-score
+
+      %h2.info-film
+        %span.info-film-name
+        (<span class="info-year"></span>)
+
+    #legend-overlay
+      %svg
 
   = javascript_include_tag 'all'
