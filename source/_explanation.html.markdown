@@ -5,3 +5,10 @@ Since this was my first foray into D3, I wanted to experiment with some differen
 The legend is an example of how HTML and SVG can work together. The text and background of the legend would have been possible with SVG, but much more work to style correctly. HTML is the right tool for this job, so I only used SVG for the symbols (dots) in the legend.
 
 The custom axes were a challenge. To match the design, I couldn't use D3's built-in axis support. Using ticks on the scale, though, I was able to control exactly how the tick marks and labels were styled and positioned.
+
+In the end this demo took me about a week to produce, working a couple hours each night. The source is available [here][source].
+
+[original]: http://infobawards.s3.amazonaws.com/NAVIGATING-THE-UNIVERSE-OF-CINEMATIC-OPINION_Ben-McCrea.png
+[challenge]: http://www.informationisbeautifulawards.com/2012/02/hollywood-visualisation-challenge-design-shortlist/
+[iab]: http://www.informationisbeautifulawards.com
+[source]: https://github.com/adamlogic/cinematic_opinion
