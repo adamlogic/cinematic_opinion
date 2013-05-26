@@ -1,0 +1,166 @@
+/* line 10, /Users/adam/projects/cinematic_opinion/source/stylesheets/sass/page.sass */
+.x-tick, .y-tick {
+  stroke: #222234;
+  stroke-width: 1px; }
+
+/* line 14, /Users/adam/projects/cinematic_opinion/source/stylesheets/sass/page.sass */
+.x-gridline, .y-gridline {
+  stroke: white;
+  stroke-width: 1px;
+  opacity: 0.1; }
+
+/* line 19, /Users/adam/projects/cinematic_opinion/source/stylesheets/sass/page.sass */
+.x-tick-label, .y-tick-label {
+  fill: #222234;
+  font-size: 16px; }
+
+/* line 23, /Users/adam/projects/cinematic_opinion/source/stylesheets/sass/page.sass */
+.y-axis-label strong, .x-axis-label strong {
+  color: #222234;
+  font-weight: normal;
+  font-size: 28px; }
+
+/* line 28, /Users/adam/projects/cinematic_opinion/source/stylesheets/sass/page.sass */
+body {
+  padding: 20px;
+  background: #b4b1ca;
+  font-family: "Open Sans Condensed", sans-serif; }
+
+/* line 33, /Users/adam/projects/cinematic_opinion/source/stylesheets/sass/page.sass */
+h1 {
+  margin: 0 0 20px;
+  padding-left: 210px;
+  font-size: 36px;
+  color: #222234;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5); }
+
+/* line 40, /Users/adam/projects/cinematic_opinion/source/stylesheets/sass/page.sass */
+.chart {
+  position: relative;
+  padding-left: 180px;
+  margin-bottom: 50px; }
+
+/* line 45, /Users/adam/projects/cinematic_opinion/source/stylesheets/sass/page.sass */
+#legend-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 180px; }
+
+/* line 51, /Users/adam/projects/cinematic_opinion/source/stylesheets/sass/page.sass */
+.dot {
+  fill: #dbd9fb; }
+
+/* line 54, /Users/adam/projects/cinematic_opinion/source/stylesheets/sass/page.sass */
+.dot-nominee {
+  fill: #e19f2e; }
+
+/* line 57, /Users/adam/projects/cinematic_opinion/source/stylesheets/sass/page.sass */
+.dot-winner {
+  fill: #fcd933; }
+
+/* line 60, /Users/adam/projects/cinematic_opinion/source/stylesheets/sass/page.sass */
+.dot-selected {
+  fill: transparent;
+  stroke: #4dfc9d;
+  stroke-width: 1.5px; }
+
+/* line 65, /Users/adam/projects/cinematic_opinion/source/stylesheets/sass/page.sass */
+.y-axis-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 210px;
+  border-top: 2px solid rgba(34, 34, 52, 0.7); }
+
+/* line 74, /Users/adam/projects/cinematic_opinion/source/stylesheets/sass/page.sass */
+.x-axis-label {
+  position: absolute;
+  left: 209px;
+  height: 80px;
+  border-left: 2px solid rgba(34, 34, 52, 0.7); }
+  /* line 79, /Users/adam/projects/cinematic_opinion/source/stylesheets/sass/page.sass */
+  .x-axis-label strong {
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    width: 400px; }
+
+/* line 104, /Users/adam/projects/cinematic_opinion/source/stylesheets/sass/page.sass */
+.legend {
+  position: absolute;
+  left: 0;
+  width: 160px;
+  padding: 15px;
+  background: #2f2d48;
+  color: #cdccdd; }
+  /* line 111, /Users/adam/projects/cinematic_opinion/source/stylesheets/sass/page.sass */
+  .legend h2 {
+    margin: 0 0 5px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #534d78;
+    font-size: 16px;
+    font-weight: bold; }
+  /* line 117, /Users/adam/projects/cinematic_opinion/source/stylesheets/sass/page.sass */
+  .legend p {
+    margin: 0 0 3px;
+    font-size: 15px; }
+
+/* line 121, /Users/adam/projects/cinematic_opinion/source/stylesheets/sass/page.sass */
+.year-filter {
+  margin: 0 0 10px 210px; }
+
+/* line 124, /Users/adam/projects/cinematic_opinion/source/stylesheets/sass/page.sass */
+.year-toggle {
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+  padding: 0 15px 0 32px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 15px;
+  background: #2f2d48;
+  color: #cdccdd; }
+  /* line 134, /Users/adam/projects/cinematic_opinion/source/stylesheets/sass/page.sass */
+  .year-toggle input {
+    position: absolute;
+    left: 12px;
+    top: 8px; }
+
+/* line 139, /Users/adam/projects/cinematic_opinion/source/stylesheets/sass/page.sass */
+.info {
+  position: absolute;
+  top: 20px;
+  left: 230px;
+  color: #4dfc9d;
+  opacity: 0; }
+
+/* line 146, /Users/adam/projects/cinematic_opinion/source/stylesheets/sass/page.sass */
+.info-film {
+  margin: 3px 0 0;
+  font-weight: normal;
+  white-space: nowrap;
+  border-top: 2px solid #4dfc9d; }
+
+/* line 152, /Users/adam/projects/cinematic_opinion/source/stylesheets/sass/page.sass */
+.info-film-name {
+  font-weight: bold; }
+
+/* line 155, /Users/adam/projects/cinematic_opinion/source/stylesheets/sass/page.sass */
+.info-score {
+  margin-right: 5px;
+  font-weight: bold; }
+  /* line 158, /Users/adam/projects/cinematic_opinion/source/stylesheets/sass/page.sass */
+  .info-score span {
+    font-weight: normal; }
+
+/* line 161, /Users/adam/projects/cinematic_opinion/source/stylesheets/sass/page.sass */
+.explanation {
+  padding-left: 210px;
+  margin-top: 80px;
+  font-size: 22px;
+  width: 40em;
+  color: #222234; }
+  /* line 167, /Users/adam/projects/cinematic_opinion/source/stylesheets/sass/page.sass */
+  .explanation a {
+    color: #222234; }

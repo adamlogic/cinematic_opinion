@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Navigating the Universe of Cinematic Opinion</title>
+    <link href="/stylesheets/all.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
+  </head>
+</html>
+<body>
+  <h1>Navigating the Universe of Cinematic Opinion</h1>
+  <div class='year-filter'></div>
+  <div class='chart'>
+    <svg id='chart'></svg>
+    <div class='y-axis-label'>
+      <strong>Audience Score (AS)</strong>
+    </div>
+    <div class='x-axis-label'>
+      <strong>Rotten Tomatoes Score (RTS)</strong>
+    </div>
+    <div class='legend'>
+      <h2>Legend</h2>
+      <p>Oscar-winning Film</p>
+      <p>Oscar-nominated Film</p>
+      <p>Regular Film</p>
+    </div>
+    <div class='info'>
+      <span class='info-score'>
+        RTS
+        <span class='info-tomato-score'></span>
+      </span>
+      <span class='info-score'>
+        AS
+        <span class='info-audience-score'></span>
+      </span>
+      <h2 class='info-film'>
+        <span class='info-film-name'></span>
+        (<span class="info-year"></span>)
+      </h2>
+    </div>
+    <div id='legend-overlay'>
+      <svg></svg>
+    </div>
+  </div>
+  <div class='explanation'>
+    <p>This chart was <a href='http://infobawards.s3.amazonaws.com/NAVIGATING-THE-UNIVERSE-OF-CINEMATIC-OPINION_Ben-McCrea.png'>originally designed</a> by my brother, Ben McCrea, for a <a href='http://www.informationisbeautifulawards.com/2012/02/hollywood-visualisation-challenge-design-shortlist/'>challenge</a> sponsored by the <a href='http://www.informationisbeautifulawards.com'>Information is Beautiful Awards</a>. Ben allowed me to use his design for this interactive <a href='http://d3js.org'>D3</a> demo.</p>
+    
+    <p>Since this was my first foray into D3, I wanted to experiment with some different features of the library. The checkboxes I added, while a bit ugly and superfluous, demonstrate interactivity through adding and removing points from a dataset and a staggered transition.</p>
+    
+    <p>The legend is an example of how HTML and SVG can work together. The text and background of the legend would have been possible with SVG, but much more work to style correctly. HTML is the right tool for this job, so I only used SVG for the symbols (dots) in the legend.</p>
+    
+    <p>The custom axes were a challenge. To match the design, I couldn&#8217;t use D3&#8217;s built-in axis support. Using ticks on the scale, though, I was able to control exactly how the tick marks and labels were styled and positioned.</p>
+    
+    <p>This demo took me about a week to produce, working a couple hours each night. It was built with <a href='http://middlemanapp.com'>Middleman</a> and <a href='http://d3js.org'>D3</a>. It is hosted on <a href='http://pages.github.com'>Github Pages</a>, deployed with my <a href='https://github.com/neo/middleman-gh-pages'>middleman-gh-pages</a> gem. The demo source is available <a href='https://github.com/adamlogic/cinematic_opinion'>here</a>.</p>
+  </div>
+  <script src="/javascripts/all.js" type="text/javascript"></script>
+</body>
