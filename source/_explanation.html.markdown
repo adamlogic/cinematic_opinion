@@ -1,4 +1,4 @@
-This chart was [originally designed][original] by my brother, Ben McCrea, for a [challenge][] sponsored by the [Information is Beautiful Awards][iab]. Ben allowed me to use his design for this interactive [D3][] demo.
+This chart was [originally designed][original] by my brother, Ben McCrea, for a [challenge][] sponsored by the [Information is Beautiful Awards][iab]. Ben allowed me to take his design and turn it into an interactive [D3][] demo.
 
 Since this was my first foray into D3, I wanted to experiment with some different features of the library. The checkboxes I added, while a bit ugly and superfluous, demonstrate interactivity through adding and removing points from a dataset and a staggered transition.
 
